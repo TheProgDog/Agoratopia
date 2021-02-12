@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agoratopia.Views.TestPage">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column"
+                    AlignItems="Center"
+                    JustifyContent="Center"
+                    BackgroundColor="LightBlue">
+            <Label Text="Welcome to Agoratopia! Please login:"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="16"/>
+            <Entry Placeholder="Passcode"
+                   x:Name="Passcode"
+                   PlaceholderColor="DarkBlue"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="150"
+                   MaxLength="8"
+                   Keyboard="Numeric"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Button Text="Login"
+                    Clicked="DoLogin"/>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

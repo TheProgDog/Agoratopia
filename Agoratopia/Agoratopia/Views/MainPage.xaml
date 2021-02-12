@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agoratopia.Views.MainPage">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column"
+                    AlignItems="Start"
+                    BackgroundColor="LightBlue">
+            
+            <Label Text="Placeholder Text"
+                x:Name="DateTest"
+                FontSize="26"
+                FontAttributes="Italic"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"/>
+
+            <Label Text="&#x2022;       Have you gone outside today?"/>
+
+            <Picker SelectedIndex="1"
+                    x:Name="ExposureBool"
+                    WidthRequest="100"
+                    HorizontalTextAlignment="Center">
+                <Picker.Items>
+                    <x:String>Yes</x:String>
+                    <x:String>No</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="&#x2022;       On a scale of 1-10, how stressful was it?"/>
+
+            <Picker SelectedIndex="0"
+                    x:Name="StressScale"
+                    WidthRequest="100"
+                    HorizontalTextAlignment="Center">
+                <Picker.Items>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                    <x:String>6</x:String>
+                    <x:String>7</x:String>
+                    <x:String>8</x:String>
+                    <x:String>9</x:String>
+                    <x:String>10</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="&#x2022;       How bearable was the anxiety?"/>
+
+            <Picker SelectedIndex="0"
+                    x:Name="BearableAnxiety"
+                    WidthRequest="100"
+                    HorizontalTextAlignment="Center">
+                <Picker.Items>
+                    <x:String>Not Very Bearable</x:String>
+                    <x:String>Kind Of Bearable</x:String>
+                    <x:String>Bearable</x:String>
+                    <x:String>Very Bearable</x:String>
+                    <x:String>Hell Yeah</x:String>
+                </Picker.Items>
+            </Picker>
+
+
+            <Button Text="Submit"
+                    WidthRequest="150"
+                    Clicked="SubmitReport"/>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
