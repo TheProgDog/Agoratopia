@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SQLite;
+using Agoratopia.Database;
 
 namespace Agoratopia.Views
 {
@@ -30,14 +32,34 @@ namespace Agoratopia.Views
             DateTest.Text = "Good " + timeOfDay + "! Today is:\n " + date + "\n\n\n\n\n\n\n\n";
         }
 
-        private void SubmitReport(object sender, EventArgs e)
+        async private void SubmitReport(object sender, EventArgs e)
         {
-            var exposure = ExposureBool.SelectedItem;
-            var stress = StressScale.SelectedItem;
-            var anxiety = BearableAnxiety.SelectedItem;
-            var date = DateTime.Today.ToShortDateString();
+            var time = DateTime.Now.TimeOfDay;
 
-            DisplayAlert("Test Message", exposure + "\n" + stress + "\n" + anxiety + "\nRecorded on: " + date, "OK *thumbs up*");
+            int rowAdded = 0;
+
+            DailyEntry entry = new DailyEntry()
+            {
+                GoneOutside = ExposureBool.SelectedItem.ToString(),
+                StressLevel = StressScale.SelectedIndex + 1,
+                BearableLevel = BearableAnxiety.SelectedItem.ToString(),
+                DateRecorded = DateTime.Today.ToShortDateString()
+            };
+
+            // Submit entry into SQL database
+            using (SQLiteConnection conn = new SQLiteConnection(App.EntryPath))
+            {
+                conn.CreateTable<DailyEntry>();
+
+                // rowAdded for debugging purposes
+                // 0 = failure
+                // 1 = success
+                rowAdded = conn.Insert(entry);
+
+                conn.Close();
+            }
+
+            await Navigation.PopAsync();
         }
     }
 }
