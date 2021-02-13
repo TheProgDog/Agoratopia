@@ -1,17 +1,166 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:c="clr-namespace:Agoratopia.Database"
              x:Class="Agoratopia.Views.TestPage">
+
+    <ContentPage.Resources>
+        <c:EntryList x:Key="EntryListData"
+                     x:Name="EntryData"/>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         <FlexLayout Direction="Column"
                     AlignItems="Center"
-                    JustifyContent="Center"
-                    BackgroundColor="LightBlue">
-            <Label Text="Welcome to Agoratopia! Please login:"
+                    BackgroundColor="SlateGray">
+
+            <Label Text="Welcome to Agoratopia!"
                    VerticalOptions="Center" 
                    HorizontalOptions="CenterAndExpand"
-                   FontSize="16"/>
-            <Entry Placeholder="Passcode"
+                   FontSize="36"
+                   TextColor="White"/>
+
+            <Frame BackgroundColor="LightGreen"
+                   BorderColor="Black"
+                   Padding="0"
+                   Margin="0,50,0,0"
+                   WidthRequest="650">
+
+                <Grid Padding="0"
+                      WidthRequest="500">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="6*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Margin="10,0,10,0"
+                           Text="Date"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Grid.Column="0"/>
+
+                    <Label Margin="10,0,10,0"
+                           Text="Went out?"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Grid.Column="1"/>
+
+                    <Label Margin="10,0,10,0"
+                           Text="Anxiety"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Grid.Column="2"/>
+                    
+                    <Label Margin="10,0,10,0"
+                           Text="Bearable?"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Grid.Column="3"/>
+
+
+                    <BoxView BackgroundColor="DarkGray"
+                             WidthRequest="1"
+                             Grid.Column="0"
+                             HorizontalOptions="EndAndExpand"
+                             VerticalOptions="FillAndExpand"/>
+
+
+                    <BoxView BackgroundColor="DarkGray"
+                             WidthRequest="1"
+                             Grid.Column="1"
+                             HorizontalOptions="EndAndExpand"
+                             VerticalOptions="FillAndExpand"/>
+
+
+                    <BoxView BackgroundColor="DarkGray"
+                             WidthRequest="1"
+                             Grid.Column="2"
+                             HorizontalOptions="EndAndExpand"
+                             VerticalOptions="FillAndExpand"/>
+
+                </Grid>
+                
+            </Frame>
+
+            <ListView ItemsSource="{Binding Source={StaticResource EntryListData}}"
+                      SeparatorVisibility="None"
+                      SelectedItem="None"
+                      WidthRequest="650"
+                      HeightRequest="500">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Padding="0">
+                                <Grid Padding="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="6*"/>
+                                        <ColumnDefinition Width="6*"/>
+                                        <ColumnDefinition Width="6*"/>
+                                        <ColumnDefinition Width="6*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Margin="10,0,10,0"
+                                       Text="{Binding DateRecorded}"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"
+                                       Grid.Column="0"/>
+
+                                    <Label Margin="10,0,10,0"
+                                       Text="{Binding GoneOutside}"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"
+                                       Grid.Column="1"/>
+
+                                    <Label Margin="10,0,10,0"
+                                       Text="{Binding StressLevel}"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"
+                                       Grid.Column="2"/>
+
+                                    <Label Margin="10,0,10,0"
+                                       Text="{Binding BearableLevel}"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"
+                                       Grid.Column="3"/>
+
+
+                                    <BoxView BackgroundColor="DarkGray"
+                                             WidthRequest="1"
+                                             Grid.Column="0"
+                                             HorizontalOptions="EndAndExpand"
+                                             VerticalOptions="FillAndExpand"/>
+
+
+                                    <BoxView BackgroundColor="DarkGray"
+                                             WidthRequest="1"
+                                             Grid.Column="1"
+                                             HorizontalOptions="EndAndExpand"
+                                             VerticalOptions="FillAndExpand"/>
+
+
+                                    <BoxView BackgroundColor="DarkGray"
+                                             WidthRequest="1"
+                                             Grid.Column="2"
+                                             HorizontalOptions="EndAndExpand"/>
+
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label Text=""
+                   x:Name="TestText"
+                   FontSize="26"
+                   TextColor="Black"/>
+
+
+
+            <!--<Entry Placeholder="Passcode"
                    x:Name="Passcode"
                    PlaceholderColor="DarkBlue"
                    HorizontalTextAlignment="Center"
@@ -19,9 +168,26 @@
                    MaxLength="8"
                    Keyboard="Numeric"
                    VerticalOptions="Center"
-                   HorizontalOptions="Center"/>
-            <Button Text="Login"
-                    Clicked="DoLogin"/>
+                   HorizontalOptions="Center"/>-->
+
+            <FlexLayout Direction="Row"
+                        AlignItems="Center"
+                        HeightRequest="50"
+                        JustifyContent="SpaceEvenly">
+                
+                <Button Text="Create Entry"
+                        TextColor="Black"
+                        WidthRequest="250"
+                        Clicked="CreateEntry"
+                        BackgroundColor="LightGreen"/>
+
+                <Button Text="Delete Table"
+                        TextColor="Black"
+                        WidthRequest="250"
+                        Clicked="DeleteTable"
+                        BackgroundColor="LightGreen"/>
+            </FlexLayout>
+
         </FlexLayout>
     </ContentPage.Content>
 </ContentPage>
