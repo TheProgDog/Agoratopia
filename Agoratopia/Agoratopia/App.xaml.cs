@@ -4,11 +4,14 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SQLite;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Push;
 
 namespace Agoratopia
 {
     public partial class App : Application
     {
+
         public static String EntryPath { get; private set; }
 
         public App()

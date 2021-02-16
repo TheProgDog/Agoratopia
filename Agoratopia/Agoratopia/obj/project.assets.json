@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Microsoft.AppCenter/3.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Push/3.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "3.4.3"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Push.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Push.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -222,6 +243,52 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/3.4.3": {
+      "sha512": "ELndpIAOUZhhu/l2a9pGFMPBhnyPrBxLXJmSqO0ibfZKxz5Tcg6vPq8rt1IYVrIL9pO3UwGCGDH0t8zYDYM67Q==",
+      "type": "package",
+      "path": "microsoft.appcenter/3.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net461/Microsoft.AppCenter.dll",
+        "lib/net461/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.3.4.3.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Push/3.4.3": {
+      "sha512": "KfQTUsefwizSGbz8ty5FBofbpqq2+0sQ5rPOw4UPJ2iBCMJKtqa4LJlupd/LQdiX61T6q7RShyRWptrht/QIew==",
+      "type": "package",
+      "path": "microsoft.appcenter.push/3.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Push.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Push.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Push.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Push.xml",
+        "microsoft.appcenter.push.3.4.3.nupkg.sha512",
+        "microsoft.appcenter.push.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -1006,6 +1073,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Microsoft.AppCenter.Push >= 3.4.3",
       "NETStandard.Library >= 2.0.3",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.5.3.2",
@@ -1057,6 +1125,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Push": {
+            "target": "Package",
+            "version": "[3.4.3, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

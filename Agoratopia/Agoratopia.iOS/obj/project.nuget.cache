@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SIdjt4OLN4goEIhqC5Z2/zWgR3fyR0KTn0BHef0oAfd86vqmgZ4rH6AbBa23aJZJJpOF72+mzvPpiy71rJPrdg==",
+  "dgSpecHash": "195Vc4o4Rnv2wp34DGu9AWTWdy39j3RzYCkjyUQfkJWAf2a0+l/oeALavQt8zKAzBNosKExN6irmP9CilJvzaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel Hernandez-Ote\\source\\repos\\Agoratopia\\Agoratopia\\Agoratopia.iOS\\Agoratopia.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\microsoft.appcenter\\3.4.3\\microsoft.appcenter.3.4.3.nupkg.sha512",
+    "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\microsoft.appcenter.push\\3.4.3\\microsoft.appcenter.push.3.4.3.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

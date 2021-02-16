@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SQLite;
 using Agoratopia.Database;
+using Agoratopia.ViewModels;
 
 namespace Agoratopia.Views
 {
@@ -17,19 +18,23 @@ namespace Agoratopia.Views
         public MainPage()
         {
             InitializeComponent();
+        }
 
-            var date = DateTime.Today.ToShortDateString();
-            var hour = DateTime.Now.Hour;
-            var timeOfDay = "";
-
-            if (hour < 12)
-                timeOfDay = "morning";
-            else if (hour < 18)
-                timeOfDay = "afternoon";
+        private void ChangeEdit(object sender, EventArgs e)
+        {
+            if (ExposureBool.SelectedIndex == 0)
+            { 
+                DailyDescription.IsEnabled = true;
+                WentOutAlone.IsEnabled = true;
+            }
             else
-                timeOfDay = "evening";
+            {
+                DailyDescription.IsEnabled = false;
+                DailyDescription.Text = "";
 
-            DateTest.Text = "Good " + timeOfDay + "! Today is:\n " + date + "\n\n\n\n\n\n\n\n";
+                WentOutAlone.IsEnabled = false;
+                WentOutAlone.SelectedIndex = 4;
+            }
         }
 
         async private void SubmitReport(object sender, EventArgs e)
@@ -38,12 +43,15 @@ namespace Agoratopia.Views
 
             int rowAdded = 0;
 
+            // Populate the entry with all of the forms on the page
             DailyEntry entry = new DailyEntry()
             {
                 GoneOutside = ExposureBool.SelectedItem.ToString(),
                 StressLevel = StressScale.SelectedIndex + 1,
                 BearableLevel = BearableAnxiety.SelectedItem.ToString(),
-                DateRecorded = DateTime.Today.ToShortDateString()
+                DateRecorded = DateTime.Today.ToShortDateString(),
+                WentAlone = WentOutAlone.SelectedItem.ToString(),
+                DailyDescription = "•              " + DailyDescription.Text.ToString()
             };
 
             // Submit entry into SQL database
@@ -59,7 +67,14 @@ namespace Agoratopia.Views
                 conn.Close();
             }
 
-            await Navigation.PopAsync();
+            // Refreshes the table in the main page so that the entry is immediately recognized
+            // This is the best thing I can come up with *shrugs*
+            Navigation.NavigationStack[0].Resources["EntryListData"] = new EntryViewModel();
+
+            if (rowAdded == 1)
+                await Navigation.PopAsync();
+            else
+                await DisplayAlert("ERROR:", "Could not submit entry. Try changing something and try again!", "OK");
         }
     }
 }
