@@ -5,72 +5,163 @@
     <ContentPage.Content>
         <FlexLayout Direction="Column"
                     AlignItems="Center"
-                    BackgroundColor="LightBlue">
-            
+                    BackgroundColor="SlateGray">
+
             <Label Text="Placeholder Text"
-                x:Name="DateTest"
-                FontSize="26"
-                FontAttributes="Italic"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center"
-                HorizontalTextAlignment="Center"/>
+                   TextColor="WhiteSmoke"
+                   x:Name="DateTest"
+                   FontSize="26"
+                   FontAttributes="Italic"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
 
-            <Label Text="&#x2022;       Have you gone outside today?"
-                   HorizontalOptions="Start"/>
 
-            <Picker x:Name="ExposureBool"
-                    WidthRequest="200"
-                    HorizontalTextAlignment="Center">
-                <Picker.Items>
-                    <x:String>Yes</x:String>
-                    <x:String>No</x:String>
-                </Picker.Items>
-                <Picker.SelectedIndex>
-                    1
-                </Picker.SelectedIndex>
-            </Picker>
+            <Frame HeightRequest="550"
+                   Margin="0,50,0,50"
+                   BackgroundColor="Black">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <!-- Q1: Have you gone outside today? -->
+                    <Label Text="&#x2022;       Have you gone outside today?"
+                           TextColor="WhiteSmoke"
+                           HorizontalOptions="Start"
+                           Grid.Row="0"/>
 
-            <Label Text="&#x2022;       On a scale of 1-10, how stressful was it?"/>
+                    <Picker x:Name="ExposureBool"
+                            SelectedIndexChanged="ChangeEdit"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="1">
+                        <Picker.Items>
+                            <x:String>Yes</x:String>
+                            <x:String>No</x:String>
+                        </Picker.Items>
+                        <Picker.SelectedIndex>
+                            1
+                        </Picker.SelectedIndex>
+                    </Picker>
 
-            <Picker x:Name="StressScale"
-                    WidthRequest="200"
-                    HorizontalTextAlignment="Center">
-                <Picker.Items>
-                    <x:String>1</x:String>
-                    <x:String>2</x:String>
-                    <x:String>3</x:String>
-                    <x:String>4</x:String>
-                    <x:String>5</x:String>
-                    <x:String>6</x:String>
-                    <x:String>7</x:String>
-                    <x:String>8</x:String>
-                    <x:String>9</x:String>
-                    <x:String>10</x:String>
-                </Picker.Items>
-                <Picker.SelectedIndex>
-                    0
-                </Picker.SelectedIndex>
-            </Picker>
+                    <!-- Q2: How stressful was it? -->
+                    <Label Text="&#x2022;       On a scale of 1-10, how stressful was it?"
+                           TextColor="WhiteSmoke"
+                           Grid.Row="2"/>
 
-            <Label Text="&#x2022;       How bearable was the anxiety?"/>
+                    <Picker x:Name="StressScale"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="3">
+                        <Picker.Items>
+                            <x:String>1</x:String>
+                            <x:String>2</x:String>
+                            <x:String>3</x:String>
+                            <x:String>4</x:String>
+                            <x:String>5</x:String>
+                            <x:String>6</x:String>
+                            <x:String>7</x:String>
+                            <x:String>8</x:String>
+                            <x:String>9</x:String>
+                            <x:String>10</x:String>
+                        </Picker.Items>
+                        <Picker.SelectedIndex>
+                            0
+                        </Picker.SelectedIndex>
+                    </Picker>
 
-            <Picker x:Name="BearableAnxiety"
-                    WidthRequest="200"
-                    HorizontalTextAlignment="Center">
-                <Picker.Items>
-                    <x:String>Not Very Bearable</x:String>
-                    <x:String>Kind Of Bearable</x:String>
-                    <x:String>Bearable</x:String>
-                    <x:String>Very Bearable</x:String>
-                    <x:String>Hell Yeah</x:String>
-                </Picker.Items>
-                <Picker.SelectedIndex>
-                    0
-                </Picker.SelectedIndex>
-            </Picker>
+                    <!-- Q3: How bearable was your anxiety? -->
+                    <Label Text="&#x2022;       How bearable was the anxiety?"
+                           TextColor="WhiteSmoke"
+                           Grid.Row="4"/>
 
+                    <Picker x:Name="BearableAnxiety"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="5">
+                        <Picker.Items>
+                            <x:String>Not Very Bearable</x:String>
+                            <x:String>Kind Of Bearable</x:String>
+                            <x:String>Bearable</x:String>
+                            <x:String>Very Bearable</x:String>
+                            <x:String>Hell Yeah</x:String>
+                        </Picker.Items>
+                        <Picker.SelectedIndex>
+                            0
+                        </Picker.SelectedIndex>
+                    </Picker>
+
+                    <!-- Q4: Did you go out alone, or with others? -->
+                    <Label Text="Did you go out alone, or with others?"
+                           TextColor="White"
+                           Grid.Row="6"/>
+
+                    <Picker x:Name="WentOutAlone"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="7"
+                            IsEnabled="False">
+                        <Picker.Items>
+                            <x:String>I went out alone</x:String>
+                            <x:String>I went out with people I know</x:String>
+                            <x:String>I went out with people I don't know</x:String>
+                            <x:String>Mixture (such as meeting up with others)</x:String>
+                            <x:String>I didn't go outside today</x:String>
+                        </Picker.Items>
+                        <Picker.SelectedIndex>
+                            4
+                        </Picker.SelectedIndex>
+                    </Picker>
+
+                    <!-- Q5: Describe your experience -->
+                    <Label Text="&#x2022;       Go ahead and describe this exposure in 120 characters."
+                           TextColor="WhiteSmoke"
+                           Grid.Row="8"/>
+
+                    <Label Text="{Binding Source={x:Reference DailyDescription},
+                                          Path=Text.Length,
+                                          StringFormat='{0}/120'}"
+                           TextColor="White"
+                           Grid.Row="9"/>
+
+                    <Editor x:Name="DailyDescription"
+                            IsEnabled="False"
+                            Placeholder="Hello there!"
+                            Text=""
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            MaxLength="120"
+                            WidthRequest="250"
+                            AutoSize="TextChanges"
+                            FlowDirection="MatchParent"
+                            Grid.Row="10"/>
+
+                </Grid>
+            </Frame>
 
             <Button Text="Submit"
+                    TextColor="Black"
+                    BackgroundColor="LimeGreen"
+                    HeightRequest="100"
                     WidthRequest="150"
                     Clicked="SubmitReport"/>
         </FlexLayout>

@@ -44,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.AppCenter.Push": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

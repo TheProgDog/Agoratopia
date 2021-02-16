@@ -19,3 +19,4 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.0\Views\Deprecated\LoginPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.0\Views\Deprecated\NewItemPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.0\Views\GifPage.xaml.g.cs

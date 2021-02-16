@@ -20,6 +20,10 @@ namespace Agoratopia.Database
 
         public String DateRecorded { get; set; }
 
+        public String WentAlone { get; set; }
+
+        public String DailyDescription { get; set; }
+
         public DailyEntry()
         {
             
