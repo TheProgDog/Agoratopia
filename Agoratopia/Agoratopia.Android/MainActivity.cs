@@ -24,6 +24,9 @@ namespace Agoratopia.Droid
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+
+            // Allow swipeview component
+            global::Xamarin.Forms.Forms.SetFlags("SwipeView_Experimental", "Shapes_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             string fileName = "daily_entry_db.db3";

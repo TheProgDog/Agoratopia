@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 using SQLite;
+
 using Agoratopia.Database;
 using Agoratopia.ViewModels;
 
@@ -30,7 +32,9 @@ namespace Agoratopia.Views
             else
                 timeOfDay = "evening";
 
-            AgoratopiaTitle.Text = "Good " + timeOfDay + ", welcome to Agoratopia!\nToday is:\n " + date;
+            AgoratopiaTitle.Text = "Good " + timeOfDay + "! Today is:\n " + date;
+
+            Resources["EntryListData"] = new EntryViewModel(date);
         }
 
         void DoLogin(object sender, System.EventArgs e)
@@ -81,7 +85,7 @@ namespace Agoratopia.Views
                 case true:
                     using (SQLiteConnection conn = new SQLiteConnection(App.EntryPath))
                     {
-                        conn.Delete<DailyEntry>((int)((Button)sender).BindingContext);
+                        conn.Delete<DailyEntry>((int)((SwipeItem)sender).BindingContext);
 
                         conn.Close();
                     }
@@ -97,6 +101,56 @@ namespace Agoratopia.Views
 
                     break;
             }
+        }
+
+        async void DeleteEverything(object sender, System.EventArgs e)
+        {
+
+            switch (await DisplayAlert("CAUTION:", "Are you sure you want to delete ALL your info? This is NOT recoverable.", "Yes", "No"))
+            {
+                case true:
+                    using (SQLiteConnection conn = new SQLiteConnection(App.EntryPath))
+                    {
+                        conn.DropTable<DailyEntry>();
+                        conn.DropTable<Settings>();
+                        conn.DropTable<TierLabels>();
+
+                        conn.Close();
+                    }
+
+                    await Navigation.PushAsync(new TierSetting());
+                    Navigation.RemovePage(Navigation.NavigationStack[0]);
+
+                    break;
+                default:
+                    break;
+            }            
+        }
+
+        async void EditEntry(object sender, System.EventArgs e)
+        {
+            await DisplayAlert("SORRY", "I'm still working on this function!", "ok why'd you include this tho");
+        }
+
+        //private void SelectDate(object sender, DateChangedEventArgs e)
+        //{
+        //    Resources["EntryListData"] = new EntryViewModel(DatePick.Date.ToShortDateString());
+        //} 
+
+        private void SelectAll(object sender, System.EventArgs e)
+        {
+            Resources["EntryListData"] = new EntryViewModel();
+        }
+
+        async private void Pictures(object sender, System.EventArgs e)
+        {
+            await DisplayAlert("SORRY", "I'm still working on this function!", "ok why'd you include this tho");
+        }
+
+        private void ListViewChange(object sender, System.EventArgs e)
+        {
+            System.Console.WriteLine("Hello, this is the line. Element changed etc. etc.");
+            DisplayAlert("hE", "has no grace", "such a face");
         }
     }
 }

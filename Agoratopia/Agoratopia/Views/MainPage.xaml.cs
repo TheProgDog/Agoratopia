@@ -51,7 +51,7 @@ namespace Agoratopia.Views
                 BearableLevel = BearableAnxiety.SelectedItem.ToString(),
                 DateRecorded = DateTime.Today.ToShortDateString(),
                 WentAlone = WentOutAlone.SelectedItem.ToString(),
-                DailyDescription = "•              " + DailyDescription.Text.ToString()
+                DailyDescription = DailyDescription.Text.ToString()
             };
 
             // Submit entry into SQL database

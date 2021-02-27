@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:test="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:c="clr-namespace:Agoratopia.ViewModels"
+             xmlns:c="clr-namespace:Agoratopia.ViewModels"         
+             xmlns:local="clr-namespace:Agoratopia.CustomRenderer"
+             xmlns:effects="clr-namespace:Agoratopia.CustomRenderer.Effects"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              
              x:Class="Agoratopia.Views.TestPage">
 
@@ -23,187 +27,251 @@
             <Setter Property="HorizontalOptions" Value="EndAndExpand"/>
             <Setter Property="VerticalOptions" Value="EndAndExpand"/>
         </Style>
+
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="WidthRequest" Value="{OnIdiom Phone=100, Tablet=200}"/>
+            <Setter Property="HeightRequest" Value="{OnIdiom Phone=60, Tablet=85}"/>
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Micro, Tablet=Medium}"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="BorderWidth" Value="2"/>
+            <Setter Property="BorderColor" Value="Black"/>
+        </Style>
+
+        <Style x:Key="DashStyle" TargetType="{x:Type Line}">
+            <Setter Property="Stroke" Value="Black"/>
+            <Setter Property="StrokeThickness" Value="1"/>
+            <Setter Property="StrokeDashArray" Value="3,3"/>
+            <Setter Property="StrokeDashOffset" Value="6"/>
+        </Style>
+
+        <Style x:Key="DateText" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Medium, Tablet=Large}"/>
+        </Style>
+
+        <Style x:Key="EntryText" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Micro, Tablet=Medium}"/>
+        </Style>
+
+        <Style x:Key="QuestionText" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Micro, Tablet=Medium}"/>
+        </Style>
     </ContentPage.Resources>
     
     <ContentPage.Content>
-        <FlexLayout Direction="Column"
-                    AlignItems="Center"
-                    BackgroundColor="SlateGray">
+        <Grid BackgroundColor="#FFDDD2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".10*"/>
+                <RowDefinition Height=".80*"/>
+                <RowDefinition Height=".15*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".05*"/>
+                <ColumnDefinition Width=".90*"/>
+                <ColumnDefinition Width=".05*"/>
+            </Grid.ColumnDefinitions>
+
 
             <Label Text="Welcome to Agoratopia!"
                    x:Name="AgoratopiaTitle"
                    VerticalOptions="Center" 
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center"
-                   FontSize="36"
-                   Margin="0,50,0,0"
-                   TextColor="White"/>
+                   FontSize="{OnIdiom Phone=Medium, Tablet=Large}"
+                   Margin="0,15,0,0"
+                   TextColor="Black"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
+            <!-- Pick the date here -->
+            <!--<DatePicker MinimumDate="01/01/2021"
+                        DateSelected="SelectDate"
+                        BackgroundColor="White"
+                        WidthRequest="200"
+                        HorizontalOptions="Center"
+                        x:Name="DatePick"/>
 
-            <Frame BackgroundColor="LightGreen"
-                   BorderColor="Black"
-                   Padding="0"
-                   Margin="0,50,0,0"
-                   WidthRequest="750">
-
-                <Grid Padding="0"
-                      WidthRequest="500">
-
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="4*"/>
-                        <ColumnDefinition Width="7*"/>
-                        <ColumnDefinition Width="3*"/>
-                        <ColumnDefinition Width="3*"/>
-                        <ColumnDefinition Width="5*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <Label Margin="10,0,10,0"
-                           Text="Date"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           Grid.Column="0"/>
-
-                    <Label Margin="10,0,10,0"
-                           Text="Went alone?"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           Grid.Column="1"/>
-
-                    <Label Margin="10,0,10,0"
-                           Text="Went out?"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           Grid.Column="2"/>
-
-                    <Label Margin="10,0,10,0"
-                           Text="Anxiety"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           Grid.Column="3"/>
-
-                    <Label Margin="10,0,10,0"
-                           Text="Bearable?"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           Grid.Column="4"/>
+            <Button Text="Select All Entries"
+                    Clicked="SelectAll"
+                    Margin="0,10,0,0"
+                    BackgroundColor="LimeGreen"
+                    Style="{StaticResource ButtonStyle}"/>-->
 
 
-                    <BoxView Style="{StaticResource ColumnView}"
-                             Grid.Column="0"/>
-
-                    <BoxView Style="{StaticResource ColumnView}"
-                             Grid.Column="1"/>
-
-                    <BoxView Style="{StaticResource ColumnView}"
-                             Grid.Column="2"/>
-
-                    <BoxView Style="{StaticResource ColumnView}"
-                             Grid.Column="3"/>
-
-                </Grid>
-
-            </Frame>
-            
-            
             <!-- This is the main table displaying data. For testing purposes, to be replaced with something more practical -->
+
             <ListView ItemsSource="{DynamicResource EntryListData}"
-                      SeparatorVisibility="Default"
                       WidthRequest="750"
-                      HeightRequest="500">
+                      HasUnevenRows="True"
+                      Margin="0,15,0,0"
+                      Grid.Row="1"
+                      Grid.Column="1"
+                      BindingContextChanged="ListViewChange">
+                
+
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell Height="10000">
-                            <Frame Padding="0">
-                                <Grid Padding="0">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="4*"/>
-                                        <ColumnDefinition Width="7*"/>
-                                        <ColumnDefinition Width="3*"/>
-                                        <ColumnDefinition Width="3*"/>
-                                        <ColumnDefinition Width="5*"/>
-                                    </Grid.ColumnDefinitions>
+                        <ViewCell>
 
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*"/>
-                                        <RowDefinition Height="*"/>
-                                    </Grid.RowDefinitions>
-                                    
-                                    <!-- All the data gets populated here -->
-                                    
-                                    <!-- Delete this row -->
-                                    <Button BackgroundColor="Red"
-                                            Clicked="RemoveEntry"
-                                            BindingContext="{Binding Key}"
-                                            Margin="0,0,115,0"
-                                            Grid.Column="0"/>
-                                    
-                                    <Label Margin="10,0,10,0"
-                                           Text="{Binding DateRecorded}"
-                                           VerticalOptions="Center"
-                                           HorizontalOptions="Center"
+                            <SwipeView>
+                                <SwipeView.LeftItems>
+                                    <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                                        <SwipeItem Text="Delete"
+                                                   BackgroundColor="Red"
+                                                   Invoked="RemoveEntry"
+                                                   BindingContext="{Binding Key}"/>
+                                    </SwipeItems>
+                                </SwipeView.LeftItems>
+
+                                <SwipeView.RightItems>
+                                    <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                                        <SwipeItem Text="Pictures"
+                                               BackgroundColor="Yellow"
+                                               Invoked="Pictures"
+                                               BindingContext="{Binding Key}"/>
+
+                                        <SwipeItem Text="Edit"
+                                               BackgroundColor="LimeGreen"
+                                               Invoked="EditEntry"
+                                               BindingContext="{Binding Key}"/>
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+
+
+
+
+                                <pancake:PancakeView>
+                                    <pancake:PancakeView.Shadow>
+                                        <pancake:DropShadow BlurRadius="10"/>
+                                    </pancake:PancakeView.Shadow>
+                                    <Grid HeightRequest="{OnIdiom Phone=150, Tablet=250}">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.75*"/>
+                                            <ColumnDefinition Width="0.80*"/>
+                                            <ColumnDefinition Width="1.25*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <BoxView BackgroundColor="#A6D4FF"
+                                                 Grid.Row="0"
+                                                 Grid.Column="0"
+                                                 Grid.RowSpan="6"/>
+
+                                        <Label Text="{Binding DateRecorded}"
+                                           Style="{StaticResource DateText}"
+                                           Rotation="-90"
+                                           Grid.Row="2"
                                            Grid.Column="0"
-                                           Grid.Row="0"/>
+                                           Grid.RowSpan="2"/>
 
-                                    <Label Margin="10,0,10,0"
-                                           Text="{Binding WentAlone}"
-                                           VerticalOptions="Center"
-                                           HorizontalOptions="Center"
-                                           Grid.Column="1"
-                                           Grid.Row="0"/>
+                                        <Line X1="93"
+                                              Y1="0"
+                                              X2="93"
+                                              Y2="150"
+                                              Stroke="Red"
+                                              StrokeThickness="2"
+                                              Grid.RowSpan="6"/>
 
-                                    <Label Margin="10,0,10,0"
-                                           Text="{Binding GoneOutside}"
-                                           VerticalOptions="Center"
-                                           HorizontalOptions="Center"
-                                           Grid.Column="2"
-                                           Grid.Row="0"/>
 
-                                    <Label Margin="10,0,10,0"
-                                           Text="{Binding StressLevel}"
-                                           VerticalOptions="Center"
-                                           HorizontalOptions="Center"
-                                           Grid.Column="3"
-                                           Grid.Row="0"/>
+                                        <!-- Q1 -->
+                                        <Label Text="Did you go outside?"
+                                           Style="{StaticResource QuestionText}"
+                                           Grid.Row="0"
+                                           Grid.Column="1"/>
 
-                                    <Label Margin="10,0,10,0"
-                                           Text="{Binding BearableLevel}"
-                                           VerticalOptions="Center"
-                                           HorizontalOptions="Center"
-                                           Grid.Column="4"
-                                           Grid.Row="0"/>
+                                        <Label Text="{Binding GoneOutside}"
+                                           Style="{StaticResource EntryText}"
+                                           Grid.Row="0"
+                                           Grid.Column="2"/>
 
-                                    <Label Margin="10,0,10,0"
-                                           Text="{Binding DailyDescription}"
-                                           VerticalOptions="Start"
-                                           HorizontalOptions="Start"
+                                        <Line X1="93"
+                                          Y1="15"
+                                          X2="3000"
+                                          Y2="15"
+                                          Style="{StaticResource DashStyle}"
+                                          Grid.Row="0"
+                                          Grid.ColumnSpan="3"/>
+
+
+                                        <!-- Q2 -->
+                                        <Label Text="Did you go out alone?"
+                                           Style="{StaticResource QuestionText}"
                                            Grid.Row="1"
-                                           Grid.ColumnSpan="5"/>
+                                           Grid.Column="1"/>
 
-                                    
-                                    <!-- Border between each column -->
-                                    <BoxView Style="{StaticResource ColumnView}"
-                                             Grid.Column="0"/>
+                                        <Label Text="{Binding WentAlone}"
+                                           Style="{StaticResource EntryText}"
+                                           Grid.Row="1"
+                                           Grid.Column="2"/>
 
-                                    <BoxView Style="{StaticResource ColumnView}"
-                                             Grid.Column="1"/>
+                                        <Line X1="93"
+                                          Y1="15"
+                                          X2="3000"
+                                          Y2="15"
+                                          Style="{StaticResource DashStyle}"
+                                          Grid.Row="1"
+                                          Grid.ColumnSpan="3"/>
 
-                                    <BoxView Style="{StaticResource ColumnView}"
-                                             Grid.Column="2"/>
 
-                                    <BoxView Style="{StaticResource ColumnView}"
-                                             Grid.Column="3"/>
-                                    
-                                    <!-- Border between row -->
-                                    <BoxView Style="{StaticResource RowView}"
-                                             Opacity="0.3"
-                                             Grid.Row="0"
-                                             Grid.ColumnSpan="5"/>
+                                        <!-- Q3 -->
+                                        <Label Text="How stressful was it?"
+                                           Style="{StaticResource QuestionText}"
+                                           Grid.Row="2"
+                                           Grid.Column="1"/>
 
-                                    <BoxView Style="{StaticResource RowView}"
-                                             Grid.Row="1"
-                                             Grid.ColumnSpan="5"/>
+                                        <Label Text="{Binding StressLevel}"
+                                           Style="{StaticResource EntryText}"
+                                           Grid.Row="2"
+                                           Grid.Column="2"/>
 
-                                </Grid>
-                            </Frame>
+                                        <Line X1="93"
+                                          Y1="15"
+                                          X2="3000"
+                                          Y2="15"
+                                          Style="{StaticResource DashStyle}"
+                                          Grid.Row="2"
+                                          Grid.ColumnSpan="3"/>
+
+
+                                        <!-- Q4 -->
+                                        <Label Text="Was it bearable?"
+                                           Style="{StaticResource QuestionText}"
+                                           Grid.Row="3"
+                                           Grid.Column="1"/>
+
+                                        <Label Text="{Binding BearableLevel}"
+                                           Style="{StaticResource EntryText}"
+                                           Grid.Row="3"
+                                           Grid.Column="2"/>
+
+                                        <Line X1="93"
+                                          Y1="15"
+                                          X2="3000"
+                                          Y2="15"
+                                          Style="{StaticResource DashStyle}"
+                                          Grid.Row="3"
+                                          Grid.ColumnSpan="3"/>
+
+
+                                        <!-- Q5 -->
+                                        <Label Text="{Binding DailyDescription, StringFormat='Description: {0}'}"
+                                               Style="{StaticResource QuestionText}"
+                                               Grid.Row="4"
+                                               Grid.Column="1"
+                                               Grid.ColumnSpan="2"
+                                               Grid.RowSpan="2"/>
+                                    </Grid>
+                                </pancake:PancakeView>
+                            </SwipeView>
+
+
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -212,42 +280,44 @@
             <Label Text=""
                    x:Name="TestText"
                    FontSize="26"
-                   TextColor="Black"/>
-
-            <!--<Entry Placeholder="Passcode"
-                   x:Name="Passcode"
-                   PlaceholderColor="DarkBlue"
-                   HorizontalTextAlignment="Center"
-                   WidthRequest="150"
-                   MaxLength="8"
-                   Keyboard="Numeric"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"/>-->
-
+                   TextColor="White"/>
+            
+            
+            <!-- Three buttons go here! -->
             <FlexLayout Direction="Row"
                         AlignItems="Center"
                         HeightRequest="50"
-                        JustifyContent="SpaceEvenly">
-                
-                <Button Text="Create Entry"
-                        TextColor="Black"
-                        WidthRequest="250"
-                        Clicked="CreateEntry"
-                        BackgroundColor="LightGreen"/>
+                        JustifyContent="SpaceEvenly"
+                        Grid.Row="2"
+                        Grid.Column="1">
 
-                <Button Text="Delete Table"
-                        TextColor="Black"
-                        WidthRequest="250"
+                <pancake:PancakeView>
+                    <pancake:PancakeView.Shadow>
+                        <pancake:DropShadow BlurRadius="3"/>
+                    </pancake:PancakeView.Shadow>
+                    
+                    <Button Text="Create Entry"
+                            Style="{StaticResource ButtonStyle}"
+                            Clicked="CreateEntry"
+                            BackgroundColor="#88FF86"/> 
+                </pancake:PancakeView>
+
+                <Button Text="Delete Entries"
+                        Style="{StaticResource ButtonStyle}"
                         Clicked="DeleteTable"
-                        BackgroundColor="LightGreen"/>
+                        BackgroundColor="#FF8686"/>
 
-                <Button Text="Panic GIF"
-                        TextColor="Black"
-                        WidthRequest="250"
+                <Button Text="Delete Everything"
+                        Style="{StaticResource ButtonStyle}"
+                        Clicked="DeleteEverything"
+                        BackgroundColor="#FF8686"/>
+
+                <!--<Button Text="Panic GIF"
+                        Style="{StaticResource ButtonStyle}"
                         Clicked="TakeToGif"
-                        BackgroundColor="LightGreen"/>
-            </FlexLayout>
+                        BackgroundColor="LimeGreen"/>-->
 
-        </FlexLayout>
+            </FlexLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

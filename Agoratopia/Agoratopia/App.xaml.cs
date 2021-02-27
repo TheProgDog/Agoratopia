@@ -31,7 +31,16 @@ namespace Agoratopia
             EntryPath = completePath;
 
             //DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new TestPage());
+
+            using (SQLiteConnection conn = new SQLiteConnection(EntryPath))
+            {
+                if (conn.GetTableInfo("Settings").Count == 0)
+                    MainPage = new NavigationPage(new TierSetting());
+                else
+                    MainPage = new NavigationPage(new TestPage());
+
+                conn.Close();
+            }
         }
 
         protected override void OnStart()

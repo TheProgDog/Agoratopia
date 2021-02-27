@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "195Vc4o4Rnv2wp34DGu9AWTWdy39j3RzYCkjyUQfkJWAf2a0+l/oeALavQt8zKAzBNosKExN6irmP9CilJvzaw==",
+  "dgSpecHash": "AQlCi43L7bSoDlO62Pn7+MZ1/mZBxRBbafproe2moIKUSDlTsNXTiRTcR75axgvvpPAcfDk8RFYkqlRYUF8u6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel Hernandez-Ote\\source\\repos\\Agoratopia\\Agoratopia\\Agoratopia.iOS\\Agoratopia.iOS.csproj",
   "expectedPackageFiles": [
@@ -11,11 +11,40 @@
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\Daniel Hernandez-Ote\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.1 to 1.5.3.2. Reference the package directly from the project to select a different version. \r\n Agoratopia.iOS -> Agoratopia -> Xamarin.Essentials (>= 1.6.1) \r\n Agoratopia.iOS -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2012 to 4.8.0.1451. Reference the package directly from the project to select a different version. \r\n Agoratopia.iOS -> Agoratopia -> Xamarin.Forms (>= 5.0.0.2012) \r\n Agoratopia.iOS -> Xamarin.Forms (>= 4.8.0.1451)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

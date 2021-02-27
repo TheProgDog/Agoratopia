@@ -509,8 +509,6 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Andr
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\42\jl\files.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\46\jl\files.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\51\jl\files.cache
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\52\jl\files.cache
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\55\jl\files.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\56\jl\files.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\assets\Microsoft.AppCenter.Android.Bindings.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\assets\Microsoft.AppCenter.dll
@@ -567,5 +565,10 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Andr
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\mono\com\microsoft\appcenter\push\PushListenerImplementor.java
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\mono\com\microsoft\appcenter\utils\context\UserIdContext_ListenerImplementor.java
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\mono\com\microsoft\appcenter\utils\NetworkStateHelper_ListenerImplementor.java
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\res\drawable\gatcha.png
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\res\drawable\breathe.gif
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\crc646b28e4a189991b10\ListViewCustomRenderer.java
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\53\jl\files.cache
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\lp\57\jl\files.cache
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\assets\Xamarin.Forms.PancakeView.dll
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\crc64f8908e42fa42e603\PancakeDrawable.java
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\crc64f8908e42fa42e603\PancakeViewRenderer.java
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Debug\90\android\src\crc64f8908e42fa42e603\RoundedCornerOutlineProvider.java

@@ -17,7 +17,7 @@
 
 	/* 1: Agoratopia.dll */
 	/* uncompressed_file_size */
-	.word	82944
+	.word	96768
 	/* loaded */
 	.byte	0
 	/* data */
@@ -728,7 +728,7 @@
 
 	/* 80: mscorlib.dll */
 	/* uncompressed_file_size */
-	.word	2061312
+	.word	2061824
 	/* loaded */
 	.byte	0
 	/* data */
