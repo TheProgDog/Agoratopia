@@ -6,8 +6,21 @@
         Define global resources and styles here, that apply to all pages in your app.
     -->
     <Application.Resources>
+        
+        <!-- Application-wide resources -->
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="WidthRequest" Value="{OnIdiom Phone=100, Tablet=200}"/>
+            <Setter Property="HeightRequest" Value="{OnIdiom Phone=60, Tablet=85}"/>
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Micro, Tablet=Medium}"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="BorderWidth" Value="2"/>
+            <Setter Property="BorderColor" Value="Black"/>
+        </Style>
+        
+        
         <ResourceDictionary>
-            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="Primary">Black</Color>
             <Style TargetType="Button">
                 <Setter Property="TextColor" Value="White"></Setter>
                 <Setter Property="VisualStateManager.VisualStateGroups">

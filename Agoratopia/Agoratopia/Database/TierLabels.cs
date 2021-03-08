@@ -8,6 +8,12 @@ namespace Agoratopia.Database
     [Table("TierLabels")]
     class TierLabels
     {
+        [PrimaryKey,AutoIncrement]
+        public int PKey
+        {
+            get;
+            set;
+        }
 
         public string TierLabel
         {
@@ -16,7 +22,7 @@ namespace Agoratopia.Database
 
         public TierLabels()
         {
-            TierLabel = "Test";
+
         }
     }
 }

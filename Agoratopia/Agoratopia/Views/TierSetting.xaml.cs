@@ -74,7 +74,7 @@ namespace Agoratopia.Views
                     if (questionCount > 0)
                     {
                         Switch(BackButton);
-                        BackButton.BackgroundColor = Color.Red;
+                        BackButton.BackgroundColor = Color.FromHex("#FF8686");
                     }
 
                     break;
@@ -134,10 +134,12 @@ namespace Agoratopia.Views
                             ColumnSpacing = 2.0
                         };
 
+
+                        
                         Label label = new Label
                         {
                             Text = $"Tier {i + 1}:",
-                            TextColor = Color.White,
+                            TextColor = Color.Black,
                             FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label))
                         };
 
@@ -147,6 +149,7 @@ namespace Agoratopia.Views
                             BackgroundColor = Color.White,
                             FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry))
                         };
+
 
                         Grid.SetColumn(label, 0);
                         Grid.SetColumn(entry, 1);
@@ -238,7 +241,9 @@ namespace Agoratopia.Views
                 conn.Close();
             }
 
-            await Navigation.PushAsync(new TestPage());
+            Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack[0]);            
+            await Navigation.PopAsync();
+            //await Navigation.PushAsync(new MainPage());
         }
 
         private void Confirm()

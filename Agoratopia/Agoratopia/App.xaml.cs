@@ -7,6 +7,8 @@ using SQLite;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Push;
 
+using Sharpnado.Shades;
+
 namespace Agoratopia
 {
     public partial class App : Application
@@ -21,12 +23,14 @@ namespace Agoratopia
             EntryPath = null;
 
             //DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new TestPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         public App(string completePath)
         { 
             InitializeComponent();
+
+            Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
 
             EntryPath = completePath;
 
@@ -37,7 +41,9 @@ namespace Agoratopia
                 if (conn.GetTableInfo("Settings").Count == 0)
                     MainPage = new NavigationPage(new TierSetting());
                 else
-                    MainPage = new NavigationPage(new TestPage());
+                    MainPage = new NavigationPage(new MainPage());
+
+                ((NavigationPage)MainPage).BarBackgroundColor = Color.FromHex("#A6D4FF");
 
                 conn.Close();
             }
@@ -53,6 +59,11 @@ namespace Agoratopia
 
         protected override void OnResume()
         {
+        }
+
+        public void TestFunction(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

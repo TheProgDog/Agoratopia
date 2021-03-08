@@ -36,5 +36,15 @@ namespace Agoratopia.ViewModels
                 }
             }
         }
+
+        public EntryViewModel(int pkey) : base()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.EntryPath))
+            {
+                conn.CreateTable<DailyEntry>();
+
+                Add(conn.FindWithQuery<DailyEntry>($"SELECT * FROM DailyEntry WHERE Key='{pkey}'"));
+            }
+        }
     }
 }

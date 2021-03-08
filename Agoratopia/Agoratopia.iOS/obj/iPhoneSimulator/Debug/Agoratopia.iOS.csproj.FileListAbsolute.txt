@@ -4,6 +4,10 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Microsoft.AppCenter.iOS.Bindings.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Microsoft.AppCenter.Push.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Microsoft.AppCenter.Push.iOS.Bindings.dll
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Sharpnado.Shadows.dll
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Sharpnado.Shadows.pdb
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Sharpnado.Shadows.iOS.dll
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Sharpnado.Shadows.iOS.pdb
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.nativelibrary.dll
@@ -12,6 +16,8 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\WeakEvent.dll
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\WeakEvent.pdb
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.pdb
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.dll
@@ -60,7 +66,6 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Agoratopia.pdb
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Contents.json.ResolveUTIs.stamp
@@ -77,6 +82,7 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Icon40.png.ResolveUTIs.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Icon29.png.ResolveUTIs.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Icon20.png.ResolveUTIs.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\optimized\icon_about.png
@@ -89,7 +95,6 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\optimized\xamarin_logo@2x.png
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\optimized\xamarin_logo@3x.png
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Agoratopia.iOS.csprojAssemblyReference.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Agoratopia.iOS.csproj.CoreCompileInputs.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Agoratopia.iOS.csproj.CopyComplete
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Agoratopia.iOS.exe
@@ -98,6 +103,10 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AppCenter.iOS.Bindings.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AppCenter.Push.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AppCenter.Push.iOS.Bindings.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Sharpnado.Shadows.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Sharpnado.Shadows.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Sharpnado.Shadows.iOS.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Sharpnado.Shadows.iOS.pdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLite-net.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.batteries_v2.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.nativelibrary.dll.ReferenceCopyLocalPaths.stamp
@@ -106,6 +115,8 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Buffers.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Memory.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Runtime.CompilerServices.Unsafe.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\WeakEvent.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\WeakEvent.pdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Plugin.Settings.Abstractions.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Plugin.Settings.Abstractions.pdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Plugin.Settings.dll.ReferenceCopyLocalPaths.stamp
@@ -121,8 +132,10 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Agoratopia.pdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Sharpnado.Shadows.iOS.dll.mdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Plugin.Settings.Abstractions.dll.mdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Agoratopia.iOS.exe.mdb.ReferenceCopyLocalPaths.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Agoratopia.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.iOS\obj\iPhoneSimulator\Debug\Agoratopia.iOS.csprojAssemblyReference.cache

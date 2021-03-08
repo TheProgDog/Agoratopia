@@ -2,10 +2,8 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\bin\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\bin\Debug\netstandard2.1\Agoratopia.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\bin\Debug\netstandard2.1\ref\Agoratopia.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\bin\Debug\netstandard2.1\Agoratopia.pdb
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Agoratopia.csprojAssemblyReference.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\App.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\AppShell.xaml.g.cs
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\CalendarPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\Deprecated\AboutPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\Deprecated\ItemDetailPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\Deprecated\ItemsPage.xaml.g.cs
@@ -14,7 +12,6 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\GifPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\MainPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\PhotoPage.xaml.g.cs
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\TestPage.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\TierSetting.xaml.g.cs
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Agoratopia.AssemblyInfoInputs.cache
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Agoratopia.AssemblyInfo.cs
@@ -23,3 +20,8 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Agoratopia.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\ref\Agoratopia.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Agoratopia.pdb
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Agoratopia.csprojAssemblyReference.cache
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\EntryPage.xaml.g.cs
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\Colors.xaml.g.cs
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\HelpPage.xaml.g.cs
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Debug\netstandard2.1\Views\EntryDetails.xaml.g.cs

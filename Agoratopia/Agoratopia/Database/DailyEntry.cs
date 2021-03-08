@@ -12,6 +12,8 @@ namespace Agoratopia.Database
         [PrimaryKey, AutoIncrement]
         public int Key { get; set; }
 
+        public int TierLevel { get; set; }
+
         public String GoneOutside { get; set; }
 
         public int StressLevel { get; set; }

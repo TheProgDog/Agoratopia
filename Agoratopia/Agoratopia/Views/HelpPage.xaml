@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sharp="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             
+             x:Class="Agoratopia.Views.HelpPage"
+             
+             NavigationPage.HasBackButton="False">
+
+    <!-- Custom buttons for the navigation bar -->
+
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".33*"/>
+                <ColumnDefinition Width=".33*"/>
+                <ColumnDefinition Width=".33*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <ImageButton Source="question.png"
+                        Grid.Column="0"
+                        BackgroundColor="Transparent"
+                        Clicked="HelpSection"/>
+
+            <ImageButton Source="home.png"
+                        Scale="1.25"
+                        Grid.Column="1"
+                        BackgroundColor="Transparent"
+                        Clicked="GoHome"/>
+
+            <ImageButton Source="settings.png"
+                        Grid.Column="2"
+                        BackgroundColor="Transparent"
+                        Clicked="ToSettings"/>
+        </Grid>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Resources>
+        <Style x:Key="Header" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Large, Tablet=Title}"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextDecorations" Value="Underline"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="Bullet" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Header}"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+
+        <Style x:Key="Body" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="{OnIdiom Phone=Small, Tablet=Medium}"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+        <FlexLayout Direction="Column"
+                    BackgroundColor="#FFDDD2">
+
+            <ScrollView>
+
+                <FlexLayout Direction="Column"
+                            HorizontalOptions="Center"
+                            WidthRequest="{OnIdiom Phone=350, Tablet=650}">
+
+                    <Frame CornerRadius="20"
+                               BackgroundColor="White"
+                           Margin="0,20,0,0">
+
+                        <Grid Margin="20,0,20,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Text="What is Agoraphobia?"
+                                    Style="{StaticResource Header}"/>
+
+                            <Label Text="Agoraphobia is the fear of being in a situation that may trigger symptoms of panic without the ability to quickly return to a &quot;safe space.&quot; This causes agoraphobes to constantly avoid going outside where they're not comfortable."
+                                    Style="{StaticResource Body}"
+                                    Grid.Row="1"/>
+
+                            <Label Text="Since agoraphobia is different for everyone, the primary cause differs between people. Some people, like myself, form their agoraphobia after one too many panic attacks. Others develop the phobia after experiencing especially intense bouts of vertigo, leaving them terrified of the thought of losing their balance when out alone."
+                                    Style="{StaticResource Body}"
+                                    Grid.Row="2"/>
+
+                        </Grid>
+
+                    </Frame>
+
+
+
+                    <!-- "What should I remind myself?" card -->
+                    <Frame CornerRadius="20"
+                               BackgroundColor="White"
+                           Margin="0,20,0,0">
+
+                        <Grid Margin="20,0,20,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Text="What are some helpful things I should remind myself?"
+                                       Style="{StaticResource Header}"/>
+
+                            <Label Text="Remember that there are plenty of therapists, psychologists, and other mental health professionals who are here to help you. Reach out to them!"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="1"/>
+
+                            <Label Text="The &quot;What if?&quot; mentality is more toxic than anything. If you find yourself constantly thinking in &quot;what if&quot;s, try your best to talk yourself out of the cycle."
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="2"/>
+
+                            <Label Text="There are plenty of grounding techniques to help distract you from negative thoughts. For example, try describing your surroundings as vividly as you can in your own mind, or try spelling words backwards."
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="3"/>
+
+                            <Label Text="Practice makes perfect. You may not be able to use certain grounding techniques perfectly the first time, but it gets easier with time!"
+                                   Style="{StaticResource Body}"
+                                   Grid.Row="4"/>
+
+                            <Label Grid.Row="5">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Agoraphobia is a temporary illness."
+                                              FontAttributes="Bold"
+                                              TextDecorations="Underline"
+                                              Style="{StaticResource Body}"/>
+                                        <Span Text=" I cannot stress this enough - it may feel hopeless at first, especially if you've regressed from plenty of progress recently, but recovery is not impossible."
+                                              Style="{StaticResource Body}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Text="If you're spiritual, hold your faith close to your heart. If you're a Christian, pray to God. Muslim? Pray to Allah. Keep your faith in whomever you believe in and everything will get much easier."
+                                   Style="{StaticResource Body}"
+                                   Grid.Row="6"/>
+
+                        </Grid>
+
+                    </Frame>
+
+
+                    <!-- "What can I do to help?" card -->
+                    <Frame CornerRadius="20"
+                               BackgroundColor="White"
+                           Margin="0,20,0,0">
+
+                        <Grid Margin="20,0,20,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Text="How can I help a loved one?"
+                                       Style="{StaticResource Header}"/>
+
+                            <Label Text="If you yourself aren't agoraphobic but know someone who is, the best thing you can do is be patient with them. You may not see it, but agoraphobes are constantly battling with their anxieties every day, often even at home!"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="1"/>
+
+                            <Label Text="Cognitive Behavioral Therapy (CBT) does miracles to help agoraphobia sufferers, especially if it's started as soon as symptoms arise. The earlier, the better. But it's never too late to recover from agoraphobia!"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="2"/>
+
+                            <Label Text="The following strategies help a lot, especially with CBT:"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="3"/>
+
+
+                            <!-- Bullet 1 -->
+                            <Label Text="&#x2022;      Exposure Therapy"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="4"/>
+
+                            <Frame BackgroundColor="Transparent"
+                                       Margin="{OnIdiom Phone='25,0,0,0', Tablet='75,0,0,0'}"
+                                       Padding="0,-5,0,0"
+                                       Grid.Row="5">
+                                <Label Text=" &#x2022;      Push yourself and loved ones to walk outside of their comfort zones."
+                                       Style="{StaticResource Body}"/>
+                            </Frame>
+
+                            <Frame BackgroundColor="Transparent"
+                                       Margin="{OnIdiom Phone='25,0,0,0', Tablet='75,0,0,0'}"
+                                       Padding="0,-5,0,0"
+                                       Grid.Row="6">
+                                <Label Text=" &#x2022;      This is an incremental process. Start off small and work your way up so as not to burn yourself out!"
+                                       Style="{StaticResource Body}"/>
+                            </Frame>
+
+
+                            <!-- Bullet 2 -->
+                            <Label Text="&#x2022;      Cognitive Behavioral Therapy"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="7"/>
+
+                            <Frame BackgroundColor="Transparent"
+                                       Margin="{OnIdiom Phone='25,0,0,0', Tablet='75,0,0,0'}"
+                                       Padding="0,-5,0,0"
+                                       Grid.Row="8">
+                                <Label Text=" &#x2022;      This involves identifying negative thoughts and behaviors and replacing them with positive thoughts."
+                                       Style="{StaticResource Body}"/>
+                            </Frame>
+
+
+                            <!-- Bullet 3 -->
+                            <Label Text="&#x2022;      Psychotherapy"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="9"/>
+
+                        </Grid>
+
+                    </Frame>
+
+
+                    <!-- Helpful resources card -->
+
+                    <Frame CornerRadius="20"
+                               BackgroundColor="White"
+                           Margin="0,20,0,10">
+
+                        <Grid Margin="20,0,20,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Text="Helpful resources:"
+                                       Style="{StaticResource Header}"/>
+
+                            <Label Text="1. &quot;Un-Agoraphobic: Overcome Anxiety, Panic Attacks, and Agoraphobia For Good&quot; "
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="1"/>
+
+                            <Label Text="    Author: Hal Matthew"
+                                       Style="{StaticResource Body}"
+                                       Grid.Row="2"/>
+
+                            <Label Grid.Row="3"
+                                   Style="{StaticResource Body}">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="    Publisher: Red Wheel Weiser, " />
+                                        <Span Text="(Website)"
+                                                  TextColor="Blue"
+                                                  TextDecorations="Underline">
+                                            <Span.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                                                      CommandParameter="https://www.redwheelweiser.com" />
+                                            </Span.GestureRecognizers>
+                                        </Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                        </Grid>
+
+                    </Frame>
+
+                </FlexLayout>
+            </ScrollView>
+        </FlexLayout>
+
+    </ContentPage.Content>
+</ContentPage>
