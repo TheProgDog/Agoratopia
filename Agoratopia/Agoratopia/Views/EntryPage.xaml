@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agoratopia.Views.EntryPage"
+             xmlns:sharp="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             
+             NavigationPage.HasBackButton="False">
+
+    <ContentPage.Resources>
+        <Style x:Key="TextStyle" TargetType="{x:Type Label}">
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+    </ContentPage.Resources>
+
+
+    <!-- Custom buttons for the navigation bar -->
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".33*"/>
+                <ColumnDefinition Width=".33*"/>
+                <ColumnDefinition Width=".33*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            
+            <ImageButton Source="question.png"
+                         Grid.Column="0"
+                         BackgroundColor="Transparent"
+                         Clicked="HelpSection"/>
+
+            <ImageButton Source="home.png"
+                         Scale="1.25"
+                         Grid.Column="1"
+                         BackgroundColor="Transparent"
+                         Clicked="GoHome"/>
+
+            <ImageButton Source="settings.png"
+                         Grid.Column="2"
+                         BackgroundColor="Transparent"
+                         Clicked="ToSettings"/>
+        </Grid>
+    </NavigationPage.TitleView>
+
+
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="#FFDDD2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="0.90*"/>
+                <ColumnDefinition Width="0.05*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.10*"/>
+                <RowDefinition Height="0.75*"/>
+                <RowDefinition Height="0.15*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Figuring out how to add a shadow to the nav bar -->
+            <sharp:Shadows Grid.ColumnSpan="3"
+                           Shades="{sharp:SingleShade BlurRadius=20,
+                                                      Color=Black,
+                                                      Offset={OnIdiom Phone='0,-50', Tablet='0,-80'}}">
+                <Line X1="0"
+                      Y1="{OnIdiom Phone=0}"
+                      X2="{OnIdiom Phone=1000}"
+                      Y2="{OnIdiom Phone=0}"
+                      StrokeThickness="2"
+                      Stroke="Transparent"/>
+            </sharp:Shadows>
+
+            <Label Text="Placeholder Text"
+                   TextColor="Black"
+                   x:Name="DateTest"
+                   FontSize="26"
+                   FontAttributes="Italic"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,20,0,0"
+                   Grid.Column="1"
+                   Grid.Row="0"/>
+
+
+            <sharp:Shadows Shades="{sharp:SingleShade BlurRadius=10,
+                                                      Color=Black}"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           Margin="0,10,0,0">
+                <ScrollView VerticalScrollBarVisibility="Always">
+
+                    <Frame HeightRequest="550"
+                       BackgroundColor="White">
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="5*"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Q1: Have you gone outside today? -->
+                            <Label Text="&#x2022;       Have you gone outside today?"
+                               Style="{StaticResource TextStyle}"
+                               HorizontalOptions="Start"
+                               Grid.Row="0"/>
+
+                            <Picker x:Name="ExposureBool"
+                            SelectedIndexChanged="ChangeEdit"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="1">
+                                <Picker.Items>
+                                    <x:String>Yes</x:String>
+                                    <x:String>No</x:String>
+                                </Picker.Items>
+                                <Picker.SelectedIndex>
+                                    1
+                                </Picker.SelectedIndex>
+                            </Picker>
+
+                            <!-- Q2: How stressful was it? -->
+                            <Label Text="&#x2022;       On a scale of 1-10, how stressful was it?"
+                           Style="{StaticResource TextStyle}"
+                           Grid.Row="2"/>
+
+                            <Picker x:Name="StressScale"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="3">
+                                <Picker.Items>
+                                    <x:String>1</x:String>
+                                    <x:String>2</x:String>
+                                    <x:String>3</x:String>
+                                    <x:String>4</x:String>
+                                    <x:String>5</x:String>
+                                    <x:String>6</x:String>
+                                    <x:String>7</x:String>
+                                    <x:String>8</x:String>
+                                    <x:String>9</x:String>
+                                    <x:String>10</x:String>
+                                </Picker.Items>
+                                <Picker.SelectedIndex>
+                                    0
+                                </Picker.SelectedIndex>
+                            </Picker>
+
+                            <!-- Q3: How bearable was your anxiety? -->
+                            <Label Text="&#x2022;       How bearable was the anxiety?"
+                           Style="{StaticResource TextStyle}"
+                           Grid.Row="4"/>
+
+                            <Picker x:Name="BearableAnxiety"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="5">
+                                <Picker.Items>
+                                    <x:String>Not Very Bearable</x:String>
+                                    <x:String>Kind Of Bearable</x:String>
+                                    <x:String>Bearable</x:String>
+                                    <x:String>Very Bearable</x:String>
+                                    <x:String>Hell Yeah</x:String>
+                                </Picker.Items>
+                                <Picker.SelectedIndex>
+                                    0
+                                </Picker.SelectedIndex>
+                            </Picker>
+
+                            <!-- Q4: Did you go out alone, or with others? -->
+                            <Label Text="&#x2022;       Did you go out alone, or with others?"
+                           Style="{StaticResource TextStyle}"
+                           Grid.Row="6"/>
+
+                            <Picker x:Name="WentOutAlone"
+                            TextColor="Black"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            HorizontalTextAlignment="Center"
+                            Grid.Row="7"
+                            IsEnabled="False">
+                                <Picker.Items>
+                                    <x:String>I went out alone</x:String>
+                                    <x:String>I went out with people I know</x:String>
+                                    <x:String>I went out with people I don't know</x:String>
+                                    <x:String>Mixture (such as meeting up with others)</x:String>
+                                    <x:String>I didn't go outside today</x:String>
+                                </Picker.Items>
+                                <Picker.SelectedIndex>
+                                    4
+                                </Picker.SelectedIndex>
+                            </Picker>
+
+                            <!-- Q5: What tier was this -->
+                            <Label Text="&#x2022;       What level of exposure was this equal to?"
+                                   Style="{StaticResource TextStyle}"
+                                   Grid.Row="8"/>
+
+                            <Picker x:Name="TierSelect"
+                                    TextColor="Black"
+                                    BackgroundColor="White"
+                                    WidthRequest="200"
+                                    HorizontalTextAlignment="Center"
+                                    Grid.Row="9"
+                                    IsEnabled="False">
+                                <Picker.Items>
+                                    <x:String>----</x:String>
+                                </Picker.Items>
+                                <Picker.SelectedIndex>
+                                    0
+                                </Picker.SelectedIndex>
+                            </Picker>
+
+                            <!-- Q6: Describe your experience -->
+                            <Label Text="&#x2022;       Go ahead and describe this exposure in 120 characters."
+                           Style="{StaticResource TextStyle}"
+                           Grid.Row="10"/>
+
+                            <Label Text="{Binding Source={x:Reference DailyDescription},
+                                          Path=Text.Length,
+                                          StringFormat='{0}/120'}"
+                                   TextColor="Black"
+                                   Grid.Row="11"/>
+
+                            <Editor x:Name="DailyDescription"
+                                    IsEnabled="False"
+                                    Placeholder="Hello there!"
+                                    Text=""
+                                    TextColor="Black"
+                                    BackgroundColor="White"
+                                    MaxLength="120"
+                                    HeightRequest="250"
+                                    WidthRequest="250"
+                                    AutoSize="TextChanges"
+                                    FlowDirection="MatchParent"
+                                    Grid.Row="12"/>
+
+                        </Grid>
+
+                    </Frame>
+
+                </ScrollView>
+            </sharp:Shadows>
+
+            <FlexLayout Grid.Row="2"
+                        Grid.Column="1"
+                        JustifyContent="SpaceEvenly"
+                        Direction="Row"
+                        Margin="0,10,0,0">
+
+                <sharp:Shadows Shades="{sharp:SingleShade BlurRadius=10,
+                                                      Color=Black}"
+                               HeightRequest="{OnIdiom Phone=60, Tablet=85}">
+                    <Button Text="Submit"
+                        Style="{StaticResource ButtonStyle}"
+                        BackgroundColor="#88FF86"
+                        Clicked="SubmitReport"/>
+                </sharp:Shadows>
+
+                <sharp:Shadows Shades="{sharp:SingleShade BlurRadius=10,
+                                                      Color=Black}"
+                               HeightRequest="{OnIdiom Phone=60, Tablet=85}">
+                    <Button Text="Cancel"
+                        Style="{StaticResource ButtonStyle}"
+                        BackgroundColor="#FF8686"
+                        Clicked="Cancel"/>
+                </sharp:Shadows>
+                
+            </FlexLayout>
+            
+        </Grid>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

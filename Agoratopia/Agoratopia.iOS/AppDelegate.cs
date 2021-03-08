@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using System.IO;
 using Foundation;
 using UIKit;
 
@@ -23,8 +24,14 @@ namespace Agoratopia.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
+            global::Xamarin.Forms.Forms.SetFlags("Shapes_Experimental");
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            string fileName = "daily_entry_db.db3";
+            string folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string completePath = Path.Combine(folderPath, fileName);
+
+            LoadApplication(new App(completePath));
 
             return base.FinishedLaunching(app, options);
         }

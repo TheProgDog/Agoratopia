@@ -23,5 +23,28 @@ namespace Agoratopia.ViewModels
                 }
             }
         }
+
+        public EntryViewModel(String date) : base()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.EntryPath))
+            {
+                conn.CreateTable<DailyEntry>();
+
+                foreach (DailyEntry entry in conn.Query<DailyEntry>("SELECT * FROM DailyEntry WHERE DateRecorded='" + date + "'"))
+                {
+                    Add(entry);
+                }
+            }
+        }
+
+        public EntryViewModel(int pkey) : base()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.EntryPath))
+            {
+                conn.CreateTable<DailyEntry>();
+
+                Add(conn.FindWithQuery<DailyEntry>($"SELECT * FROM DailyEntry WHERE Key='{pkey}'"));
+            }
+        }
     }
 }

@@ -67,116 +67,116 @@
 	.section	.rodata.map_aname.11,"aMS",@progbits,1
 	.type	.L.map_aname.11, @object
 .L.map_aname.11:
-	.asciz	"Agoratopia.Android"
-	.size	.L.map_aname.11, 19
+	.asciz	"Xamarin.Android.Arch.Lifecycle.LiveData.Core"
+	.size	.L.map_aname.11, 45
 
 	.section	.rodata.map_aname.12,"aMS",@progbits,1
 	.type	.L.map_aname.12, @object
 .L.map_aname.12:
-	.asciz	"Xamarin.Android.Arch.Lifecycle.LiveData.Core"
-	.size	.L.map_aname.12, 45
+	.asciz	"Xamarin.Firebase.Messaging"
+	.size	.L.map_aname.12, 27
 
 	.section	.rodata.map_aname.13,"aMS",@progbits,1
 	.type	.L.map_aname.13, @object
 .L.map_aname.13:
-	.asciz	"Xamarin.Firebase.Messaging"
-	.size	.L.map_aname.13, 27
+	.asciz	"Xamarin.Android.Support.v7.AppCompat"
+	.size	.L.map_aname.13, 37
 
 	.section	.rodata.map_aname.14,"aMS",@progbits,1
 	.type	.L.map_aname.14, @object
 .L.map_aname.14:
-	.asciz	"Xamarin.Android.Support.v7.AppCompat"
-	.size	.L.map_aname.14, 37
+	.asciz	"Xamarin.Android.Support.CoordinaterLayout"
+	.size	.L.map_aname.14, 42
 
 	.section	.rodata.map_aname.15,"aMS",@progbits,1
 	.type	.L.map_aname.15, @object
 .L.map_aname.15:
-	.asciz	"Xamarin.Android.Support.CoordinaterLayout"
-	.size	.L.map_aname.15, 42
+	.asciz	"Xamarin.GooglePlayServices.Tasks"
+	.size	.L.map_aname.15, 33
 
 	.section	.rodata.map_aname.16,"aMS",@progbits,1
 	.type	.L.map_aname.16, @object
 .L.map_aname.16:
-	.asciz	"Xamarin.GooglePlayServices.Tasks"
-	.size	.L.map_aname.16, 33
+	.asciz	"Xamarin.Essentials"
+	.size	.L.map_aname.16, 19
 
 	.section	.rodata.map_aname.17,"aMS",@progbits,1
 	.type	.L.map_aname.17, @object
 .L.map_aname.17:
-	.asciz	"Xamarin.Essentials"
-	.size	.L.map_aname.17, 19
+	.asciz	"Xamarin.Google.AutoValue.Annotations"
+	.size	.L.map_aname.17, 37
 
 	.section	.rodata.map_aname.18,"aMS",@progbits,1
 	.type	.L.map_aname.18, @object
 .L.map_aname.18:
-	.asciz	"Xamarin.Google.AutoValue.Annotations"
-	.size	.L.map_aname.18, 37
+	.asciz	"Xamarin.Android.Support.Fragment"
+	.size	.L.map_aname.18, 33
 
 	.section	.rodata.map_aname.19,"aMS",@progbits,1
 	.type	.L.map_aname.19, @object
 .L.map_aname.19:
-	.asciz	"Xamarin.Android.Support.Fragment"
-	.size	.L.map_aname.19, 33
+	.asciz	"Xamarin.Android.Support.SwipeRefreshLayout"
+	.size	.L.map_aname.19, 43
 
 	.section	.rodata.map_aname.20,"aMS",@progbits,1
 	.type	.L.map_aname.20, @object
 .L.map_aname.20:
-	.asciz	"Xamarin.Android.Support.SwipeRefreshLayout"
-	.size	.L.map_aname.20, 43
+	.asciz	"Xamarin.GooglePlayServices.Basement"
+	.size	.L.map_aname.20, 36
 
 	.section	.rodata.map_aname.21,"aMS",@progbits,1
 	.type	.L.map_aname.21, @object
 .L.map_aname.21:
-	.asciz	"Xamarin.GooglePlayServices.Basement"
-	.size	.L.map_aname.21, 36
+	.asciz	"Xamarin.Android.Support.ViewPager"
+	.size	.L.map_aname.21, 34
 
 	.section	.rodata.map_aname.22,"aMS",@progbits,1
 	.type	.L.map_aname.22, @object
 .L.map_aname.22:
-	.asciz	"Xamarin.Android.Support.ViewPager"
-	.size	.L.map_aname.22, 34
+	.asciz	"Xamarin.Android.Support.DrawerLayout"
+	.size	.L.map_aname.22, 37
 
 	.section	.rodata.map_aname.23,"aMS",@progbits,1
 	.type	.L.map_aname.23, @object
 .L.map_aname.23:
-	.asciz	"Xamarin.Android.Support.DrawerLayout"
-	.size	.L.map_aname.23, 37
+	.asciz	"Xamarin.Android.Arch.Lifecycle.Common"
+	.size	.L.map_aname.23, 38
 
 	.section	.rodata.map_aname.24,"aMS",@progbits,1
 	.type	.L.map_aname.24, @object
 .L.map_aname.24:
-	.asciz	"Xamarin.Android.Arch.Lifecycle.Common"
-	.size	.L.map_aname.24, 38
+	.asciz	"Microsoft.AppCenter.Push.Android.Bindings"
+	.size	.L.map_aname.24, 42
 
 	.section	.rodata.map_aname.25,"aMS",@progbits,1
 	.type	.L.map_aname.25, @object
 .L.map_aname.25:
-	.asciz	"Microsoft.AppCenter.Push.Android.Bindings"
-	.size	.L.map_aname.25, 42
+	.asciz	"Xamarin.Firebase.Common"
+	.size	.L.map_aname.25, 24
 
 	.section	.rodata.map_aname.26,"aMS",@progbits,1
 	.type	.L.map_aname.26, @object
 .L.map_aname.26:
-	.asciz	"Xamarin.Firebase.Common"
-	.size	.L.map_aname.26, 24
+	.asciz	"Xamarin.Firebase.Iid"
+	.size	.L.map_aname.26, 21
 
 	.section	.rodata.map_aname.27,"aMS",@progbits,1
 	.type	.L.map_aname.27, @object
 .L.map_aname.27:
-	.asciz	"Xamarin.Firebase.Iid"
-	.size	.L.map_aname.27, 21
+	.asciz	"Xamarin.Android.Support.Design"
+	.size	.L.map_aname.27, 31
 
 	.section	.rodata.map_aname.28,"aMS",@progbits,1
 	.type	.L.map_aname.28, @object
 .L.map_aname.28:
-	.asciz	"Xamarin.Android.Support.Design"
-	.size	.L.map_aname.28, 31
+	.asciz	"Xamarin.Android.Arch.Lifecycle.ViewModel"
+	.size	.L.map_aname.28, 41
 
 	.section	.rodata.map_aname.29,"aMS",@progbits,1
 	.type	.L.map_aname.29, @object
 .L.map_aname.29:
-	.asciz	"Xamarin.Android.Arch.Lifecycle.ViewModel"
-	.size	.L.map_aname.29, 41
+	.asciz	"Agoratopia.Android"
+	.size	.L.map_aname.29, 19
 
 	.section	.rodata.map_aname.30,"aMS",@progbits,1
 	.type	.L.map_aname.30, @object

@@ -20,3 +20,4 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Release\netstandard2.0\ref\Agoratopia.dll
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Release\netstandard2.0\Agoratopia.pdb
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Release\netstandard2.0\Views\GifPage.xaml.g.cs
+C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia\obj\Release\netstandard2.0\Views\CalendarPage.xaml.g.cs

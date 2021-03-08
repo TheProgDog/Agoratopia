@@ -370,6 +370,2593 @@ namespace Agoratopia.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Agoratopia.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_in = global::Agoratopia.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_out = global::Agoratopia.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_grow_fade_in_from_bottom = global::Agoratopia.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_enter = global::Agoratopia.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_exit = global::Agoratopia.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Agoratopia.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_bottom = global::Agoratopia.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_top = global::Agoratopia.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_bottom = global::Agoratopia.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_top = global::Agoratopia.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_enter = global::Agoratopia.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_exit = global::Agoratopia.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_in = global::Agoratopia.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_out = global::Agoratopia.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_in = global::Agoratopia.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_out = global::Agoratopia.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromLeft = global::Agoratopia.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromRight = global::Agoratopia.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToLeft = global::Agoratopia.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToRight = global::Agoratopia.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_appbar_state_list_animator = global::Agoratopia.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_hide_motion_spec = global::Agoratopia.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_show_motion_spec = global::Agoratopia.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_state_list_anim = global::Agoratopia.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Agoratopia.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_chip_state_list_anim = global::Agoratopia.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_hide_motion_spec = global::Agoratopia.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_show_motion_spec = global::Agoratopia.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Agoratopia.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Agoratopia.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarDivider = global::Agoratopia.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarItemBackground = global::Agoratopia.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarPopupTheme = global::Agoratopia.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSize = global::Agoratopia.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSplitStyle = global::Agoratopia.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarStyle = global::Agoratopia.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabBarStyle = global::Agoratopia.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabStyle = global::Agoratopia.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabTextStyle = global::Agoratopia.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTheme = global::Agoratopia.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarWidgetTheme = global::Agoratopia.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionButtonStyle = global::Agoratopia.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionDropDownStyle = global::Agoratopia.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionLayout = global::Agoratopia.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextAppearance = global::Agoratopia.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextColor = global::Agoratopia.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeBackground = global::Agoratopia.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseButtonStyle = global::Agoratopia.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCopyDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCutDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeFindDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePasteDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePopupWindowStyle = global::Agoratopia.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSelectAllDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeShareDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSplitBackground = global::Agoratopia.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeStyle = global::Agoratopia.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeWebSearchDrawable = global::Agoratopia.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowButtonStyle = global::Agoratopia.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowMenuStyle = global::Agoratopia.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionProviderClass = global::Agoratopia.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionViewClass = global::Agoratopia.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.activityChooserViewStyle = global::Agoratopia.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogButtonGroupStyle = global::Agoratopia.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogCenterButtons = global::Agoratopia.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogStyle = global::Agoratopia.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogTheme = global::Agoratopia.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.allowStacking = global::Agoratopia.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alpha = global::Agoratopia.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.alphabeticModifiers = global::Agoratopia.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowHeadLength = global::Agoratopia.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowShaftLength = global::Agoratopia.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoCompleteTextViewStyle = global::Agoratopia.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMaxTextSize = global::Agoratopia.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMinTextSize = global::Agoratopia.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizePresetSizes = global::Agoratopia.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeStepGranularity = global::Agoratopia.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeTextType = global::Agoratopia.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.background = global::Agoratopia.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundSplit = global::Agoratopia.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundStacked = global::Agoratopia.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTint = global::Agoratopia.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTintMode = global::Agoratopia.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.barLength = global::Agoratopia.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_autoHide = global::Agoratopia.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_fitToContents = global::Agoratopia.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_hideable = global::Agoratopia.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_overlapTop = global::Agoratopia.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_peekHeight = global::Agoratopia.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_skipCollapsed = global::Agoratopia.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderlessButtonStyle = global::Agoratopia.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderWidth = global::Agoratopia.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomAppBarStyle = global::Agoratopia.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomNavigationStyle = global::Agoratopia.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetDialogTheme = global::Agoratopia.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetStyle = global::Agoratopia.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundColor = global::Agoratopia.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundMode = global::Agoratopia.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCollapsedPaddingTop = global::Agoratopia.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomEnd = global::Agoratopia.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomStart = global::Agoratopia.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopEnd = global::Agoratopia.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopStart = global::Agoratopia.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeColor = global::Agoratopia.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeWidth = global::Agoratopia.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarButtonStyle = global::Agoratopia.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNegativeButtonStyle = global::Agoratopia.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNeutralButtonStyle = global::Agoratopia.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarPositiveButtonStyle = global::Agoratopia.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarStyle = global::Agoratopia.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonGravity = global::Agoratopia.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonIconDimen = global::Agoratopia.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonPanelSideLayout = global::Agoratopia.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyle = global::Agoratopia.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyleSmall = global::Agoratopia.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTint = global::Agoratopia.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTintMode = global::Agoratopia.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardBackgroundColor = global::Agoratopia.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardCornerRadius = global::Agoratopia.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardElevation = global::Agoratopia.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardMaxElevation = global::Agoratopia.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardPreventCornerOverlap = global::Agoratopia.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardUseCompatPadding = global::Agoratopia.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardViewStyle = global::Agoratopia.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkboxStyle = global::Agoratopia.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedChip = global::Agoratopia.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIcon = global::Agoratopia.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconEnabled = global::Agoratopia.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconVisible = global::Agoratopia.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedTextViewStyle = global::Agoratopia.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipBackgroundColor = global::Agoratopia.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipCornerRadius = global::Agoratopia.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipEndPadding = global::Agoratopia.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipGroupStyle = global::Agoratopia.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIcon = global::Agoratopia.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconEnabled = global::Agoratopia.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconSize = global::Agoratopia.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconTint = global::Agoratopia.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconVisible = global::Agoratopia.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipMinHeight = global::Agoratopia.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacing = global::Agoratopia.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingHorizontal = global::Agoratopia.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingVertical = global::Agoratopia.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStandaloneStyle = global::Agoratopia.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStartPadding = global::Agoratopia.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeColor = global::Agoratopia.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeWidth = global::Agoratopia.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStyle = global::Agoratopia.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIcon = global::Agoratopia.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEnabled = global::Agoratopia.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEndPadding = global::Agoratopia.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconSize = global::Agoratopia.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconStartPadding = global::Agoratopia.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconTint = global::Agoratopia.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconVisible = global::Agoratopia.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeItemLayout = global::Agoratopia.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseContentDescription = global::Agoratopia.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleGravity = global::Agoratopia.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleTextAppearance = global::Agoratopia.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseIcon = global::Agoratopia.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.collectionViewStyle = global::Agoratopia.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.color = global::Agoratopia.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorAccent = global::Agoratopia.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorBackgroundFloating = global::Agoratopia.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorButtonNormal = global::Agoratopia.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlActivated = global::Agoratopia.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlHighlight = global::Agoratopia.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlNormal = global::Agoratopia.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorError = global::Agoratopia.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimary = global::Agoratopia.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimaryDark = global::Agoratopia.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSecondary = global::Agoratopia.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSwitchThumbNormal = global::Agoratopia.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.commitIcon = global::Agoratopia.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentDescription = global::Agoratopia.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEnd = global::Agoratopia.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEndWithActions = global::Agoratopia.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetLeft = global::Agoratopia.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetRight = global::Agoratopia.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStart = global::Agoratopia.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStartWithNavigation = global::Agoratopia.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPadding = global::Agoratopia.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingBottom = global::Agoratopia.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingLeft = global::Agoratopia.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingRight = global::Agoratopia.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingTop = global::Agoratopia.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentScrim = global::Agoratopia.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.controlBackground = global::Agoratopia.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.coordinatorLayoutStyle = global::Agoratopia.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.cornerRadius = global::Agoratopia.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterEnabled = global::Agoratopia.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterMaxLength = global::Agoratopia.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterOverflowTextAppearance = global::Agoratopia.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterTextAppearance = global::Agoratopia.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.customNavigationLayout = global::Agoratopia.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.defaultQueryHint = global::Agoratopia.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogCornerRadius = global::Agoratopia.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogPreferredPadding = global::Agoratopia.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogTheme = global::Agoratopia.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.displayOptions = global::Agoratopia.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.divider = global::Agoratopia.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerHorizontal = global::Agoratopia.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerPadding = global::Agoratopia.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerVertical = global::Agoratopia.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableSize = global::Agoratopia.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawerArrowStyle = global::Agoratopia.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropdownListPreferredItemHeight = global::Agoratopia.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropDownListViewStyle = global::Agoratopia.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextBackground = global::Agoratopia.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextColor = global::Agoratopia.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextStyle = global::Agoratopia.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.elevation = global::Agoratopia.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceMaterialTheme = global::Agoratopia.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceTextAppearance = global::Agoratopia.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorEnabled = global::Agoratopia.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorTextAppearance = global::Agoratopia.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Agoratopia.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expanded = global::Agoratopia.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleGravity = global::Agoratopia.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMargin = global::Agoratopia.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginBottom = global::Agoratopia.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginEnd = global::Agoratopia.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginStart = global::Agoratopia.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginTop = global::Agoratopia.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleTextAppearance = global::Agoratopia.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabAlignmentMode = global::Agoratopia.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleMargin = global::Agoratopia.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleRoundedCornerRadius = global::Agoratopia.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleVerticalOffset = global::Agoratopia.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCustomSize = global::Agoratopia.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabSize = global::Agoratopia.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollEnabled = global::Agoratopia.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Agoratopia.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Agoratopia.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Agoratopia.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Agoratopia.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.firstBaselineToTopHeight = global::Agoratopia.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.floatingActionButtonStyle = global::Agoratopia.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.font = global::Agoratopia.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontFamily = global::Agoratopia.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderAuthority = global::Agoratopia.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderCerts = global::Agoratopia.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchStrategy = global::Agoratopia.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchTimeout = global::Agoratopia.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderPackage = global::Agoratopia.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderQuery = global::Agoratopia.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontStyle = global::Agoratopia.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontVariationSettings = global::Agoratopia.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontWeight = global::Agoratopia.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.foregroundInsidePadding = global::Agoratopia.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.gapBetweenBars = global::Agoratopia.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.goIcon = global::Agoratopia.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.headerLayout = global::Agoratopia.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.height = global::Agoratopia.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperText = global::Agoratopia.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextEnabled = global::Agoratopia.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextTextAppearance = global::Agoratopia.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideMotionSpec = global::Agoratopia.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnContentScroll = global::Agoratopia.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnScroll = global::Agoratopia.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintAnimationEnabled = global::Agoratopia.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintEnabled = global::Agoratopia.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintTextAppearance = global::Agoratopia.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeAsUpIndicator = global::Agoratopia.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeLayout = global::Agoratopia.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.hoveredFocusedTranslationZ = global::Agoratopia.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.icon = global::Agoratopia.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconEndPadding = global::Agoratopia.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconGravity = global::Agoratopia.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconifiedByDefault = global::Agoratopia.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconPadding = global::Agoratopia.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconSize = global::Agoratopia.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconStartPadding = global::Agoratopia.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTint = global::Agoratopia.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTintMode = global::Agoratopia.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.imageButtonStyle = global::Agoratopia.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.indeterminateProgressStyle = global::Agoratopia.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.initialActivityCount = global::Agoratopia.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.insetForeground = global::Agoratopia.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.isLightTheme = global::Agoratopia.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemBackground = global::Agoratopia.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalPadding = global::Agoratopia.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalTranslationEnabled = global::Agoratopia.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconPadding = global::Agoratopia.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconSize = global::Agoratopia.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconTint = global::Agoratopia.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemPadding = global::Agoratopia.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemSpacing = global::Agoratopia.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearance = global::Agoratopia.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceActive = global::Agoratopia.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceInactive = global::Agoratopia.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextColor = global::Agoratopia.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.keylines = global::Agoratopia.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.labelVisibilityMode = global::Agoratopia.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lastBaselineToBottomHeight = global::Agoratopia.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout = global::Agoratopia.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layoutManager = global::Agoratopia.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchor = global::Agoratopia.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchorGravity = global::Agoratopia.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_behavior = global::Agoratopia.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseMode = global::Agoratopia.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseParallaxMultiplier = global::Agoratopia.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_dodgeInsetEdges = global::Agoratopia.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_insetEdge = global::Agoratopia.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_keyline = global::Agoratopia.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollFlags = global::Agoratopia.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollInterpolator = global::Agoratopia.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.liftOnScroll = global::Agoratopia.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineHeight = global::Agoratopia.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineSpacing = global::Agoratopia.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceBackgroundIndicator = global::Agoratopia.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listDividerAlertDialog = global::Agoratopia.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listItemLayout = global::Agoratopia.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listLayout = global::Agoratopia.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listMenuViewStyle = global::Agoratopia.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPopupWindowStyle = global::Agoratopia.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeight = global::Agoratopia.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightLarge = global::Agoratopia.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightSmall = global::Agoratopia.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingLeft = global::Agoratopia.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingRight = global::Agoratopia.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.logo = global::Agoratopia.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.logoDescription = global::Agoratopia.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialButtonStyle = global::Agoratopia.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialCardViewStyle = global::Agoratopia.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxActionInlineWidth = global::Agoratopia.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxButtonHeight = global::Agoratopia.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxImageSize = global::Agoratopia.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.measureWithLargestChild = global::Agoratopia.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.menu = global::Agoratopia.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.multiChoiceItemLayout = global::Agoratopia.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationContentDescription = global::Agoratopia.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationIcon = global::Agoratopia.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationMode = global::Agoratopia.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationViewStyle = global::Agoratopia.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.numericModifiers = global::Agoratopia.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.overlapAnchor = global::Agoratopia.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingBottomNoButtons = global::Agoratopia.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingEnd = global::Agoratopia.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingStart = global::Agoratopia.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingTopNoTitle = global::Agoratopia.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelBackground = global::Agoratopia.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListTheme = global::Agoratopia.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListWidth = global::Agoratopia.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleContentDescription = global::Agoratopia.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleDrawable = global::Agoratopia.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleEnabled = global::Agoratopia.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTint = global::Agoratopia.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTintMode = global::Agoratopia.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupMenuStyle = global::Agoratopia.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupTheme = global::Agoratopia.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupWindowStyle = global::Agoratopia.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.preserveIconSpacing = global::Agoratopia.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.pressedTranslationZ = global::Agoratopia.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarPadding = global::Agoratopia.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarStyle = global::Agoratopia.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryBackground = global::Agoratopia.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryHint = global::Agoratopia.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.radioButtonStyle = global::Agoratopia.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyle = global::Agoratopia.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleIndicator = global::Agoratopia.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleSmall = global::Agoratopia.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.reverseLayout = global::Agoratopia.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.rippleColor = global::Agoratopia.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimAnimationDuration = global::Agoratopia.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimBackground = global::Agoratopia.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimVisibleHeightTrigger = global::Agoratopia.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrollViewStyle = global::Agoratopia.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchHintIcon = global::Agoratopia.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchIcon = global::Agoratopia.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchViewStyle = global::Agoratopia.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.seekBarStyle = global::Agoratopia.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackground = global::Agoratopia.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackgroundBorderless = global::Agoratopia.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showAsAction = global::Agoratopia.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showDividers = global::Agoratopia.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showMotionSpec = global::Agoratopia.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showText = global::Agoratopia.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.showTitle = global::Agoratopia.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleChoiceItemLayout = global::Agoratopia.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleLine = global::Agoratopia.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleSelection = global::Agoratopia.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarButtonStyle = global::Agoratopia.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarStyle = global::Agoratopia.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spanCount = global::Agoratopia.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinBars = global::Agoratopia.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerDropDownItemStyle = global::Agoratopia.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerStyle = global::Agoratopia.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.splitTrack = global::Agoratopia.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.srcCompat = global::Agoratopia.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.stackFromEnd = global::Agoratopia.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_above_anchor = global::Agoratopia.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsed = global::Agoratopia.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsible = global::Agoratopia.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_liftable = global::Agoratopia.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_lifted = global::Agoratopia.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarBackground = global::Agoratopia.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarScrim = global::Agoratopia.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeColor = global::Agoratopia.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeWidth = global::Agoratopia.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subMenuArrow = global::Agoratopia.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.submitBackground = global::Agoratopia.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitle = global::Agoratopia.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextAppearance = global::Agoratopia.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextColor = global::Agoratopia.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextStyle = global::Agoratopia.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.suggestionRowLayout = global::Agoratopia.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchMinWidth = global::Agoratopia.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchPadding = global::Agoratopia.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchStyle = global::Agoratopia.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchTextAppearance = global::Agoratopia.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabBackground = global::Agoratopia.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabContentStart = global::Agoratopia.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabGravity = global::Agoratopia.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTint = global::Agoratopia.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTintMode = global::Agoratopia.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicator = global::Agoratopia.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorAnimationDuration = global::Agoratopia.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorColor = global::Agoratopia.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorFullWidth = global::Agoratopia.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorGravity = global::Agoratopia.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorHeight = global::Agoratopia.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabInlineLabel = global::Agoratopia.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMaxWidth = global::Agoratopia.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMinWidth = global::Agoratopia.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMode = global::Agoratopia.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPadding = global::Agoratopia.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingBottom = global::Agoratopia.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingEnd = global::Agoratopia.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingStart = global::Agoratopia.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingTop = global::Agoratopia.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabRippleColor = global::Agoratopia.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabSelectedTextColor = global::Agoratopia.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabStyle = global::Agoratopia.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextAppearance = global::Agoratopia.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextColor = global::Agoratopia.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabUnboundedRipple = global::Agoratopia.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAllCaps = global::Agoratopia.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody1 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody2 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceButton = global::Agoratopia.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceCaption = global::Agoratopia.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline1 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline2 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline3 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline4 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline5 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline6 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceLargePopupMenu = global::Agoratopia.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItem = global::Agoratopia.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSecondary = global::Agoratopia.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSmall = global::Agoratopia.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceOverline = global::Agoratopia.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearancePopupMenuHeader = global::Agoratopia.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Agoratopia.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultTitle = global::Agoratopia.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSmallPopupMenu = global::Agoratopia.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle1 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle2 = global::Agoratopia.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorAlertDialogListItem = global::Agoratopia.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorSearchUrl = global::Agoratopia.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textEndPadding = global::Agoratopia.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textInputStyle = global::Agoratopia.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.textStartPadding = global::Agoratopia.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.theme = global::Agoratopia.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thickness = global::Agoratopia.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTextPadding = global::Agoratopia.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTint = global::Agoratopia.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTintMode = global::Agoratopia.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMark = global::Agoratopia.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTint = global::Agoratopia.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTintMode = global::Agoratopia.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tint = global::Agoratopia.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tintMode = global::Agoratopia.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.title = global::Agoratopia.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleEnabled = global::Agoratopia.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargin = global::Agoratopia.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginBottom = global::Agoratopia.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginEnd = global::Agoratopia.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargins = global::Agoratopia.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginStart = global::Agoratopia.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginTop = global::Agoratopia.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextAppearance = global::Agoratopia.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextColor = global::Agoratopia.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextStyle = global::Agoratopia.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarId = global::Agoratopia.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarNavigationButtonStyle = global::Agoratopia.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarStyle = global::Agoratopia.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipForegroundColor = global::Agoratopia.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipFrameBackground = global::Agoratopia.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipText = global::Agoratopia.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.track = global::Agoratopia.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTint = global::Agoratopia.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTintMode = global::Agoratopia.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.ttcIndex = global::Agoratopia.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.useCompatPadding = global::Agoratopia.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.viewInflaterClass = global::Agoratopia.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.voiceIcon = global::Agoratopia.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBar = global::Agoratopia.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBarOverlay = global::Agoratopia.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionModeOverlay = global::Agoratopia.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMajor = global::Agoratopia.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMinor = global::Agoratopia.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMajor = global::Agoratopia.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMinor = global::Agoratopia.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMajor = global::Agoratopia.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMinor = global::Agoratopia.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowNoTitle = global::Agoratopia.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_action_bar_embed_tabs = global::Agoratopia.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_allow_stacked_button_bar = global::Agoratopia.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Agoratopia.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Agoratopia.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Agoratopia.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_light = global::Agoratopia.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_borderless_text_material = global::Agoratopia.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_text_material = global::Agoratopia.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_color_highlight_material = global::Agoratopia.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_dark = global::Agoratopia.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_light = global::Agoratopia.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_input_method_navigation_guard = global::Agoratopia.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_dark = global::Agoratopia.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_light = global::Agoratopia.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_dark = global::Agoratopia.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_light = global::Agoratopia.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text = global::Agoratopia.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_normal = global::Agoratopia.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_pressed = global::Agoratopia.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_selected = global::Agoratopia.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_dark = global::Agoratopia.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_light = global::Agoratopia.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_btn_checkable = global::Agoratopia.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_default = global::Agoratopia.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_edittext = global::Agoratopia.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_seek_thumb = global::Agoratopia.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_spinner = global::Agoratopia.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_switch_track = global::Agoratopia.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_dark = global::Agoratopia.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_light = global::Agoratopia.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_dark = global::Agoratopia.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_light = global::Agoratopia.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_dark = global::Agoratopia.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_light = global::Agoratopia.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_dark = global::Agoratopia.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_light = global::Agoratopia.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_dark = global::Agoratopia.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_light = global::Agoratopia.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_dark = global::Agoratopia.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_light = global::Agoratopia.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_bg_grey = global::Agoratopia.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_divider_color = global::Agoratopia.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_text_color = global::Agoratopia.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_title_color = global::Agoratopia.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_dark = global::Agoratopia.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_light = global::Agoratopia.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_dark_background = global::Agoratopia.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_light_background = global::Agoratopia.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_end_color = global::Agoratopia.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_start_color = global::Agoratopia.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_bottom_navigation_shadow_color = global::Agoratopia.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary = global::Agoratopia.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary_dark = global::Agoratopia.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_error = global::Agoratopia.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_end_color = global::Agoratopia.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_mid_color = global::Agoratopia.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_start_color = global::Agoratopia.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_inner_color = global::Agoratopia.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_outer_color = global::Agoratopia.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_inner_color = global::Agoratopia.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_outer_color = global::Agoratopia.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_snackbar_background_color = global::Agoratopia.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.design_tint_password_toggle = global::Agoratopia.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_dark = global::Agoratopia.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_light = global::Agoratopia.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_dark = global::Agoratopia.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_light = global::Agoratopia.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_dark = global::Agoratopia.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_light = global::Agoratopia.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_dark = global::Agoratopia.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_light = global::Agoratopia.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_dark = global::Agoratopia.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_light = global::Agoratopia.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_800 = global::Agoratopia.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_900 = global::Agoratopia.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_950 = global::Agoratopia.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_200 = global::Agoratopia.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_500 = global::Agoratopia.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_100 = global::Agoratopia.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_300 = global::Agoratopia.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_50 = global::Agoratopia.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_600 = global::Agoratopia.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_800 = global::Agoratopia.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_850 = global::Agoratopia.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_900 = global::Agoratopia.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Agoratopia.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_bottom_nav_item_tint = global::Agoratopia.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_bg_color_disabled = global::Agoratopia.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_bg_color_selector = global::Agoratopia.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_ripple_color = global::Agoratopia.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_stroke_color_selector = global::Agoratopia.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Agoratopia.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_disabled = global::Agoratopia.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_selector = global::Agoratopia.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_transparent_bg_color = global::Agoratopia.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_background_color = global::Agoratopia.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_close_icon_tint = global::Agoratopia.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_ripple_color = global::Agoratopia.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_text_color = global::Agoratopia.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_fab_ripple_color = global::Agoratopia.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_scrim_color = global::Agoratopia.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_colored_ripple_color = global::Agoratopia.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector = global::Agoratopia.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Agoratopia.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Agoratopia.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_ripple_color = global::Agoratopia.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Agoratopia.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_disabled_color = global::Agoratopia.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Agoratopia.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Agoratopia.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_text_btn_text_color_selector = global::Agoratopia.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_action_color_filter = global::Agoratopia.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_icon_bg_color = global::Agoratopia.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.notification_material_background_media_default_color = global::Agoratopia.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_dark = global::Agoratopia.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_light = global::Agoratopia.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_dark = global::Agoratopia.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_light = global::Agoratopia.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_dark = global::Agoratopia.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_light = global::Agoratopia.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_dark = global::Agoratopia.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_light = global::Agoratopia.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_dark = global::Agoratopia.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_light = global::Agoratopia.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_dark = global::Agoratopia.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_light = global::Agoratopia.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_dark = global::Agoratopia.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_light = global::Agoratopia.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_dark = global::Agoratopia.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_light = global::Agoratopia.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_dark = global::Agoratopia.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_light = global::Agoratopia.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_dark = global::Agoratopia.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_light = global::Agoratopia.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_dark = global::Agoratopia.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_light = global::Agoratopia.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_height_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_elevation_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_max_height = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_height_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Agoratopia.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Agoratopia.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_dimen = global::Agoratopia.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_horizontal_material = global::Agoratopia.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_vertical_material = global::Agoratopia.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_horizontal_material = global::Agoratopia.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_vertical_material = global::Agoratopia.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Agoratopia.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_config_prefDialogWidth = global::Agoratopia.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_corner_material = global::Agoratopia.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_inset_material = global::Agoratopia.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_padding_material = global::Agoratopia.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_corner_radius_material = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_major = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_minor = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_major = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_minor = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_major = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_minor = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_material = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_top_material = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_title_divider_material = global::Agoratopia.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_dark = global::Agoratopia.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_light = global::Agoratopia.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_icon_width = global::Agoratopia.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Agoratopia.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Agoratopia.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Agoratopia.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Agoratopia.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_top_material = global::Agoratopia.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_floating_window_z = global::Agoratopia.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Agoratopia.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_panel_menu_list_width = global::Agoratopia.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_progress_bar_height_material = global::Agoratopia.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_height = global::Agoratopia.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_width = global::Agoratopia.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_background_height_material = global::Agoratopia.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Agoratopia.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_select_dialog_padding_start_material = global::Agoratopia.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_switch_padding = global::Agoratopia.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_1_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_2_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_button_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_caption_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_1_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_2_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_3_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_4_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_headline_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_large_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_medium_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_header_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_small_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subhead_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material_toolbar = global::Agoratopia.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_max_width = global::Agoratopia.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_min_padding = global::Agoratopia.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_compat_inset_shadow = global::Agoratopia.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_elevation = global::Agoratopia.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_radius = global::Agoratopia.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_horizontal_material = global::Agoratopia.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_vertical_material = global::Agoratopia.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_horizontal_material = global::Agoratopia.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_vertical_material = global::Agoratopia.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_control_corner_material = global::Agoratopia.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_height = global::Agoratopia.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_width = global::Agoratopia.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_appbar_elevation = global::Agoratopia.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_text_size = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_elevation = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_height = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_icon_size = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_max_width = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_min_width = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_margin = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_shadow_height = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_text_size = global::Agoratopia.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Agoratopia.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Agoratopia.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_border_width = global::Agoratopia.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_elevation = global::Agoratopia.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_image_size = global::Agoratopia.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_mini = global::Agoratopia.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_normal = global::Agoratopia.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Agoratopia.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_pressed = global::Agoratopia.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_elevation = global::Agoratopia.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_padding = global::Agoratopia.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_size = global::Agoratopia.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_horizontal_padding = global::Agoratopia.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_icon_padding = global::Agoratopia.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_max_width = global::Agoratopia.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_padding_bottom = global::Agoratopia.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_separator_vertical_padding = global::Agoratopia.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_action_inline_max_width = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_background_corner_radius = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_elevation = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_max_width = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_min_width = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_horizontal = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_text_size = global::Agoratopia.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_max_width = global::Agoratopia.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_scrollable_min_width = global::Agoratopia.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size = global::Agoratopia.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size_2line = global::Agoratopia.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_textinput_caption_translate_y = global::Agoratopia.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_dark = global::Agoratopia.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_light = global::Agoratopia.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_default_thickness = global::Agoratopia.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_margin = global::Agoratopia.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_minimum_range = global::Agoratopia.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_colored = global::Agoratopia.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_dark = global::Agoratopia.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_light = global::Agoratopia.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_dark = global::Agoratopia.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_light = global::Agoratopia.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_dark = global::Agoratopia.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_light = global::Agoratopia.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Agoratopia.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Agoratopia.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Agoratopia.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Agoratopia.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Agoratopia.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Agoratopia.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Agoratopia.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_height = global::Agoratopia.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_corner_radius = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_elevation = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_z = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_elevation = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_focused_z = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_hovered_z = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_padding = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_inset = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_letter_spacing = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_bottom = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_left = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_right = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_top = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_pressed_z = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_stroke_size = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_size = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_z = global::Agoratopia.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_elevation = global::Agoratopia.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_spacing = global::Agoratopia.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Agoratopia.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_text_size = global::Agoratopia.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_elevation = global::Agoratopia.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Agoratopia.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Agoratopia.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_elevation = global::Agoratopia.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Agoratopia.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Agoratopia.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Agoratopia.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_margin = global::Agoratopia.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_padding_end = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Agoratopia.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_toolbar_default_height = global::Agoratopia.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_icon_size = global::Agoratopia.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_text_size = global::Agoratopia.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_big_circle_margin = global::Agoratopia.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_content_margin_start = global::Agoratopia.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_height = global::Agoratopia.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_width = global::Agoratopia.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_main_column_padding_top = global::Agoratopia.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_media_narrow_margin = global::Agoratopia.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_icon_size = global::Agoratopia.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_side_padding_top = global::Agoratopia.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_background_padding = global::Agoratopia.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_size_as_large = global::Agoratopia.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_subtext_size = global::Agoratopia.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad = global::Agoratopia.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad_large_text = global::Agoratopia.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_corner_radius = global::Agoratopia.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_outline_width = global::Agoratopia.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_shadow_offset = global::Agoratopia.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.subtitle_shadow_radius = global::Agoratopia.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_corner_radius = global::Agoratopia.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_horizontal_padding = global::Agoratopia.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_margin = global::Agoratopia.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Agoratopia.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_threshold = global::Agoratopia.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_vertical_padding = global::Agoratopia.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_non_touch = global::Agoratopia.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_touch = global::Agoratopia.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_action_bar_item_background_material = global::Agoratopia.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_borderless_material = global::Agoratopia.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_material = global::Agoratopia.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Agoratopia.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Agoratopia.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_colored_material = global::Agoratopia.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_default_mtrl_shape = global::Agoratopia.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_material = global::Agoratopia.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Agoratopia.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Agoratopia.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Agoratopia.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Agoratopia.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_internal_bg = global::Agoratopia.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_material = global::Agoratopia.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_control_background_material = global::Agoratopia.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_dialog_material_background = global::Agoratopia.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_edit_text_material = global::Agoratopia.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_ab_back_material = global::Agoratopia.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_clear_material = global::Agoratopia.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_go_search_api_material = global::Agoratopia.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_overflow_material = global::Agoratopia.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_search_api_material = global::Agoratopia.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_black_16dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_black_36dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_black_48dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_half_black_16dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_half_black_36dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_star_half_black_48dp = global::Agoratopia.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_voice_search_api_material = global::Agoratopia.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_dark = global::Agoratopia.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_light = global::Agoratopia.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_material = global::Agoratopia.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_focused_holo = global::Agoratopia.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_longpressed_holo = global::Agoratopia.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_dark = global::Agoratopia.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_light = global::Agoratopia.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Agoratopia.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Agoratopia.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Agoratopia.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Agoratopia.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_dark = global::Agoratopia.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_light = global::Agoratopia.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Agoratopia.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_popup_background_mtrl_mult = global::Agoratopia.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_indicator_material = global::Agoratopia.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_material = global::Agoratopia.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_small_material = global::Agoratopia.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Agoratopia.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Agoratopia.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_thumb_material = global::Agoratopia.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_tick_mark_material = global::Agoratopia.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_track_material = global::Agoratopia.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_textfield_background_material = global::Agoratopia.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_thumb_material = global::Agoratopia.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_material = global::Agoratopia.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Agoratopia.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_material = global::Agoratopia.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_cursor_material = global::Agoratopia.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Agoratopia.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Agoratopia.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Agoratopia.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Agoratopia.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Agoratopia.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Agoratopia.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_vector_test = global::Agoratopia.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_hide_password = global::Agoratopia.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_show_password = global::Agoratopia.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_bottom_navigation_item_background = global::Agoratopia.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_fab_background = global::Agoratopia.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility = global::Agoratopia.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility_off = global::Agoratopia.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_password_eye = global::Agoratopia.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_snackbar_background = global::Agoratopia.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_black = global::Agoratopia.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Agoratopia.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_close_circle = global::Agoratopia.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.mtrl_snackbar_background = global::Agoratopia.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.mtrl_tabs_default_indicator = global::Agoratopia.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.navigation_empty_icon = global::Agoratopia.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_action_background = global::Agoratopia.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg = global::Agoratopia.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low = global::Agoratopia.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_normal = global::Agoratopia.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_pressed = global::Agoratopia.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal = global::Agoratopia.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal_pressed = global::Agoratopia.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_icon_background = global::Agoratopia.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_bg = global::Agoratopia.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_low_bg = global::Agoratopia.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_tile_bg = global::Agoratopia.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.notify_panel_notification_icon_bg = global::Agoratopia.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_dark = global::Agoratopia.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_light = global::Agoratopia.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action0 = global::Agoratopia.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.PancakeView.Resource.Id.actions = global::Agoratopia.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar = global::Agoratopia.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_activity_content = global::Agoratopia.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_container = global::Agoratopia.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_root = global::Agoratopia.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_spinner = global::Agoratopia.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_subtitle = global::Agoratopia.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_title = global::Agoratopia.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_container = global::Agoratopia.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_context_bar = global::Agoratopia.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_divider = global::Agoratopia.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_image = global::Agoratopia.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_divider = global::Agoratopia.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_presenter = global::Agoratopia.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar = global::Agoratopia.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar_stub = global::Agoratopia.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_close_button = global::Agoratopia.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.action_text = global::Agoratopia.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.activity_chooser_view_content = global::Agoratopia.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.add = global::Agoratopia.Droid.Resource.Id.add;
+			global::Xamarin.Forms.PancakeView.Resource.Id.alertTitle = global::Agoratopia.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.all = global::Agoratopia.Droid.Resource.Id.all;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ALT = global::Agoratopia.Droid.Resource.Id.ALT;
+			global::Xamarin.Forms.PancakeView.Resource.Id.always = global::Agoratopia.Droid.Resource.Id.always;
+			global::Xamarin.Forms.PancakeView.Resource.Id.async = global::Agoratopia.Droid.Resource.Id.async;
+			global::Xamarin.Forms.PancakeView.Resource.Id.auto = global::Agoratopia.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.PancakeView.Resource.Id.beginning = global::Agoratopia.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.PancakeView.Resource.Id.blocking = global::Agoratopia.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottom = global::Agoratopia.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_navarea = global::Agoratopia.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_tabbar = global::Agoratopia.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_header_text = global::Agoratopia.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_items = global::Agoratopia.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_icon = global::Agoratopia.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_text = global::Agoratopia.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_view = global::Agoratopia.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.buttonPanel = global::Agoratopia.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.cancel_action = global::Agoratopia.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center = global::Agoratopia.Droid.Resource.Id.center;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center_horizontal = global::Agoratopia.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.center_vertical = global::Agoratopia.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.checkbox = global::Agoratopia.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.PancakeView.Resource.Id.chronometer = global::Agoratopia.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.PancakeView.Resource.Id.clip_horizontal = global::Agoratopia.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.clip_vertical = global::Agoratopia.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.collapseActionView = global::Agoratopia.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.PancakeView.Resource.Id.container = global::Agoratopia.Droid.Resource.Id.container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.content = global::Agoratopia.Droid.Resource.Id.content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.contentPanel = global::Agoratopia.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.coordinator = global::Agoratopia.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.PancakeView.Resource.Id.CTRL = global::Agoratopia.Droid.Resource.Id.CTRL;
+			global::Xamarin.Forms.PancakeView.Resource.Id.custom = global::Agoratopia.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.customPanel = global::Agoratopia.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.decor_content_parent = global::Agoratopia.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.PancakeView.Resource.Id.default_activity_button = global::Agoratopia.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_bottom_sheet = global::Agoratopia.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area = global::Agoratopia.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area_stub = global::Agoratopia.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_text = global::Agoratopia.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.design_navigation_view = global::Agoratopia.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.disableHome = global::Agoratopia.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.PancakeView.Resource.Id.edit_query = global::Agoratopia.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.PancakeView.Resource.Id.end = global::Agoratopia.Droid.Resource.Id.end;
+			global::Xamarin.Forms.PancakeView.Resource.Id.end_padder = global::Agoratopia.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlways = global::Agoratopia.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlwaysCollapsed = global::Agoratopia.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.exitUntilCollapsed = global::Agoratopia.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.expanded_menu = global::Agoratopia.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Id.expand_activities_button = global::Agoratopia.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill = global::Agoratopia.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.PancakeView.Resource.Id.filled = global::Agoratopia.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill_horizontal = global::Agoratopia.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.fill_vertical = global::Agoratopia.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.PancakeView.Resource.Id.@fixed = global::Agoratopia.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.PancakeView.Resource.Id.flyoutcontent_appbar = global::Agoratopia.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.flyoutcontent_recycler = global::Agoratopia.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.PancakeView.Resource.Id.forever = global::Agoratopia.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.PancakeView.Resource.Id.FUNCTION = global::Agoratopia.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ghost_view = global::Agoratopia.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.PancakeView.Resource.Id.group_divider = global::Agoratopia.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Id.home = global::Agoratopia.Droid.Resource.Id.home;
+			global::Xamarin.Forms.PancakeView.Resource.Id.homeAsUp = global::Agoratopia.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.PancakeView.Resource.Id.icon = global::Agoratopia.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.icon_group = global::Agoratopia.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.PancakeView.Resource.Id.ifRoom = global::Agoratopia.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.image = global::Agoratopia.Droid.Resource.Id.image;
+			global::Xamarin.Forms.PancakeView.Resource.Id.info = global::Agoratopia.Droid.Resource.Id.info;
+			global::Xamarin.Forms.PancakeView.Resource.Id.italic = global::Agoratopia.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.PancakeView.Resource.Id.item_touch_helper_previous_elevation = global::Agoratopia.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Id.labeled = global::Agoratopia.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.largeLabel = global::Agoratopia.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.left = global::Agoratopia.Droid.Resource.Id.left;
+			global::Xamarin.Forms.PancakeView.Resource.Id.line1 = global::Agoratopia.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.PancakeView.Resource.Id.line3 = global::Agoratopia.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.PancakeView.Resource.Id.listMode = global::Agoratopia.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.PancakeView.Resource.Id.list_item = global::Agoratopia.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_appbar = global::Agoratopia.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_tablayout = global::Agoratopia.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_toolbar = global::Agoratopia.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.main_viewpager = global::Agoratopia.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Forms.PancakeView.Resource.Id.masked = global::Agoratopia.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.PancakeView.Resource.Id.media_actions = global::Agoratopia.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.PancakeView.Resource.Id.message = global::Agoratopia.Droid.Resource.Id.message;
+			global::Xamarin.Forms.PancakeView.Resource.Id.META = global::Agoratopia.Droid.Resource.Id.META;
+			global::Xamarin.Forms.PancakeView.Resource.Id.middle = global::Agoratopia.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mini = global::Agoratopia.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_child_content_container = global::Agoratopia.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_internal_children_alpha_tag = global::Agoratopia.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.PancakeView.Resource.Id.multiply = global::Agoratopia.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.PancakeView.Resource.Id.navigation_header_container = global::Agoratopia.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.never = global::Agoratopia.Droid.Resource.Id.never;
+			global::Xamarin.Forms.PancakeView.Resource.Id.none = global::Agoratopia.Droid.Resource.Id.none;
+			global::Xamarin.Forms.PancakeView.Resource.Id.normal = global::Agoratopia.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_background = global::Agoratopia.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column = global::Agoratopia.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column_container = global::Agoratopia.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.PancakeView.Resource.Id.outline = global::Agoratopia.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parallax = global::Agoratopia.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parentPanel = global::Agoratopia.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.parent_matrix = global::Agoratopia.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.PancakeView.Resource.Id.pin = global::Agoratopia.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.PancakeView.Resource.Id.progress_circular = global::Agoratopia.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.PancakeView.Resource.Id.progress_horizontal = global::Agoratopia.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Id.radio = global::Agoratopia.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right = global::Agoratopia.Droid.Resource.Id.right;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right_icon = global::Agoratopia.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.right_side = global::Agoratopia.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_image_matrix = global::Agoratopia.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_non_transition_alpha = global::Agoratopia.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Id.save_scale_type = global::Agoratopia.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.PancakeView.Resource.Id.screen = global::Agoratopia.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scroll = global::Agoratopia.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollable = global::Agoratopia.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorDown = global::Agoratopia.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorUp = global::Agoratopia.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.PancakeView.Resource.Id.scrollView = global::Agoratopia.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_badge = global::Agoratopia.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_bar = global::Agoratopia.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_button = global::Agoratopia.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_close_btn = global::Agoratopia.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_edit_frame = global::Agoratopia.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_go_btn = global::Agoratopia.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_mag_icon = global::Agoratopia.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_plate = global::Agoratopia.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_src_text = global::Agoratopia.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.search_voice_btn = global::Agoratopia.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.PancakeView.Resource.Id.selected = global::Agoratopia.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.PancakeView.Resource.Id.select_dialog_listview = global::Agoratopia.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_appbar = global::Agoratopia.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_toolbar = global::Agoratopia.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.SHIFT = global::Agoratopia.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Forms.PancakeView.Resource.Id.shortcut = global::Agoratopia.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showCustom = global::Agoratopia.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showHome = global::Agoratopia.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.PancakeView.Resource.Id.showTitle = global::Agoratopia.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.smallLabel = global::Agoratopia.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_action = global::Agoratopia.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_text = global::Agoratopia.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snap = global::Agoratopia.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.PancakeView.Resource.Id.snapMargins = global::Agoratopia.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Id.spacer = global::Agoratopia.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.PancakeView.Resource.Id.split_action_bar = global::Agoratopia.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_atop = global::Agoratopia.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_in = global::Agoratopia.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.PancakeView.Resource.Id.src_over = global::Agoratopia.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.PancakeView.Resource.Id.start = global::Agoratopia.Droid.Resource.Id.start;
+			global::Xamarin.Forms.PancakeView.Resource.Id.status_bar_latest_event_content = global::Agoratopia.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.PancakeView.Resource.Id.stretch = global::Agoratopia.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.PancakeView.Resource.Id.submenuarrow = global::Agoratopia.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.PancakeView.Resource.Id.submit_area = global::Agoratopia.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.PancakeView.Resource.Id.SYM = global::Agoratopia.Droid.Resource.Id.SYM;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tabMode = global::Agoratopia.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_transition_group = global::Agoratopia.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_event_manager = global::Agoratopia.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_listeners = global::Agoratopia.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text = global::Agoratopia.Droid.Resource.Id.text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text2 = global::Agoratopia.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_counter = global::Agoratopia.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_error = global::Agoratopia.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_helper_text = global::Agoratopia.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoButtons = global::Agoratopia.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoTitle = global::Agoratopia.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.textStart = global::Agoratopia.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.PancakeView.Resource.Id.text_input_password_toggle = global::Agoratopia.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.PancakeView.Resource.Id.time = global::Agoratopia.Droid.Resource.Id.time;
+			global::Xamarin.Forms.PancakeView.Resource.Id.title = global::Agoratopia.Droid.Resource.Id.title;
+			global::Xamarin.Forms.PancakeView.Resource.Id.titleDividerNoCustom = global::Agoratopia.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.PancakeView.Resource.Id.title_template = global::Agoratopia.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.PancakeView.Resource.Id.top = global::Agoratopia.Droid.Resource.Id.top;
+			global::Xamarin.Forms.PancakeView.Resource.Id.topPanel = global::Agoratopia.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.PancakeView.Resource.Id.touch_outside = global::Agoratopia.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_current_scene = global::Agoratopia.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_layout_save = global::Agoratopia.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_position = global::Agoratopia.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_scene_layoutid_cache = global::Agoratopia.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.PancakeView.Resource.Id.transition_transform = global::Agoratopia.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.PancakeView.Resource.Id.uniform = global::Agoratopia.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.PancakeView.Resource.Id.unlabeled = global::Agoratopia.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.PancakeView.Resource.Id.up = global::Agoratopia.Droid.Resource.Id.up;
+			global::Xamarin.Forms.PancakeView.Resource.Id.useLogo = global::Agoratopia.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.PancakeView.Resource.Id.view_offset_helper = global::Agoratopia.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.PancakeView.Resource.Id.visible = global::Agoratopia.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.PancakeView.Resource.Id.withText = global::Agoratopia.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.PancakeView.Resource.Id.wrap_content = global::Agoratopia.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityDefaultDur = global::Agoratopia.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityShortDur = global::Agoratopia.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.app_bar_elevation_anim_duration = global::Agoratopia.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.bottom_sheet_slide_duration = global::Agoratopia.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.cancel_button_image_alpha = global::Agoratopia.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.config_tooltipAnimTime = global::Agoratopia.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.design_snackbar_text_max_lines = global::Agoratopia.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Agoratopia.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.hide_password_duration = global::Agoratopia.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_delay_ms = global::Agoratopia.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_duration_ms = global::Agoratopia.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_chip_anim_duration = global::Agoratopia.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Agoratopia.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.show_password_duration = global::Agoratopia.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.PancakeView.Resource.Integer.status_bar_notification_info_maxnum = global::Agoratopia.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_linear_in = global::Agoratopia.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_slow_in = global::Agoratopia.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear = global::Agoratopia.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear_out_slow_in = global::Agoratopia.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_title_item = global::Agoratopia.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_up_container = global::Agoratopia.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_item_layout = global::Agoratopia.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_layout = global::Agoratopia.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_bar = global::Agoratopia.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_close_item_material = global::Agoratopia.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view = global::Agoratopia.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view_list_item = global::Agoratopia.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_button_bar_material = global::Agoratopia.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_material = global::Agoratopia.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_title_material = global::Agoratopia.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_cascading_menu_item_layout = global::Agoratopia.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_dialog_title_material = global::Agoratopia.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_expanded_menu_layout = global::Agoratopia.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_checkbox = global::Agoratopia.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_icon = global::Agoratopia.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_layout = global::Agoratopia.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_radio = global::Agoratopia.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_header_item_layout = global::Agoratopia.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_item_layout = global::Agoratopia.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_content_include = global::Agoratopia.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple = global::Agoratopia.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Agoratopia.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_toolbar = global::Agoratopia.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Agoratopia.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_view = global::Agoratopia.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_select_dialog_material = global::Agoratopia.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_tooltip = global::Agoratopia.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.BottomTabLayout = global::Agoratopia.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_page = global::Agoratopia.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_row = global::Agoratopia.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_navigation_item = global::Agoratopia.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_sheet_dialog = global::Agoratopia.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar = global::Agoratopia.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar_include = global::Agoratopia.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_icon = global::Agoratopia.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_text = global::Agoratopia.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_menu_item_action_area = global::Agoratopia.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item = global::Agoratopia.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_header = global::Agoratopia.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_separator = global::Agoratopia.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_subheader = global::Agoratopia.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu = global::Agoratopia.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu_item = global::Agoratopia.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.design_text_input_password_icon = global::Agoratopia.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.FlyoutContent = global::Agoratopia.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar = global::Agoratopia.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar_include = global::Agoratopia.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action = global::Agoratopia.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action_tombstone = global::Agoratopia.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_action = global::Agoratopia.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_cancel_action = global::Agoratopia.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media = global::Agoratopia.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_custom = global::Agoratopia.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow = global::Agoratopia.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow_custom = global::Agoratopia.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_custom_big = global::Agoratopia.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_icon_group = global::Agoratopia.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_lines_media = global::Agoratopia.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media = global::Agoratopia.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media_custom = global::Agoratopia.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_chronometer = global::Agoratopia.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_time = global::Agoratopia.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.RootLayout = global::Agoratopia.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_item_material = global::Agoratopia.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_multichoice_material = global::Agoratopia.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_singlechoice_material = global::Agoratopia.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.ShellContent = global::Agoratopia.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.PancakeView.Resource.Layout.support_simple_spinner_dropdown_item = global::Agoratopia.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_home_description = global::Agoratopia.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_up_description = global::Agoratopia.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_menu_overflow_description = global::Agoratopia.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_mode_done = global::Agoratopia.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_activitychooserview_choose_application = global::Agoratopia.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_activity_chooser_view_see_all = global::Agoratopia.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_off = global::Agoratopia.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_on = global::Agoratopia.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_body_1_material = global::Agoratopia.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_body_2_material = global::Agoratopia.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_button_material = global::Agoratopia.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_caption_material = global::Agoratopia.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_1_material = global::Agoratopia.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_2_material = global::Agoratopia.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_3_material = global::Agoratopia.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_display_4_material = global::Agoratopia.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_headline_material = global::Agoratopia.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_menu_material = global::Agoratopia.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_subhead_material = global::Agoratopia.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_font_family_title_material = global::Agoratopia.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_alt_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_ctrl_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_delete_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_enter_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_function_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_meta_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_shift_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_space_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_sym_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_prepend_shortcut_label = global::Agoratopia.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_clear = global::Agoratopia.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_query = global::Agoratopia.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_search = global::Agoratopia.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_submit = global::Agoratopia.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_voice = global::Agoratopia.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_search_hint = global::Agoratopia.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with = global::Agoratopia.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with_application = global::Agoratopia.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.PancakeView.Resource.String.abc_toolbar_collapse_description = global::Agoratopia.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.appbar_scrolling_view_behavior = global::Agoratopia.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.bottom_sheet_behavior = global::Agoratopia.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_content_description = global::Agoratopia.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_pattern = global::Agoratopia.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_scrim_behavior = global::Agoratopia.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_sheet_behavior = global::Agoratopia.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.hide_bottom_view_on_scroll_behavior = global::Agoratopia.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.String.mtrl_chip_close_icon_content_description = global::Agoratopia.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.overflow_tab_title = global::Agoratopia.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Forms.PancakeView.Resource.String.password_toggle_content_description = global::Agoratopia.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye = global::Agoratopia.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_strike_through = global::Agoratopia.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_visible = global::Agoratopia.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.PancakeView.Resource.String.path_password_strike_through = global::Agoratopia.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.PancakeView.Resource.String.search_menu_title = global::Agoratopia.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.PancakeView.Resource.String.status_bar_notification_info_overflow = global::Agoratopia.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat = global::Agoratopia.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_DropDownUp = global::Agoratopia.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Tooltip = global::Agoratopia.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_Design_BottomSheetDialog = global::Agoratopia.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.AppCompatDialogStyle = global::Agoratopia.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Agoratopia.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Agoratopia.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_CardView = global::Agoratopia.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Agoratopia.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Agoratopia.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Agoratopia.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Agoratopia.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Agoratopia.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_EditText = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Agoratopia.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_Design_TabLayout = global::Agoratopia.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Agoratopia.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Agoratopia.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Agoratopia.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView = global::Agoratopia.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Dark = global::Agoratopia.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Light = global::Agoratopia.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.collectionViewTheme = global::Agoratopia.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme = global::Agoratopia.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme_Base = global::Agoratopia.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat = global::Agoratopia.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents = global::Agoratopia.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light = global::Agoratopia.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Agoratopia.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Agoratopia.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat = global::Agoratopia.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat = global::Agoratopia.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Agoratopia.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Agoratopia.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Agoratopia.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Agoratopia.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Agoratopia.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewScrollBars = global::Agoratopia.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewTheme = global::Agoratopia.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body1 = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body2 = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Button = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Caption = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display1 = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display2 = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display3 = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display4 = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Headline = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Menu = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Agoratopia.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Media = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Agoratopia.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Error = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_HelperText = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Hint = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Tab = global::Agoratopia.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Button = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Agoratopia.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Agoratopia.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Agoratopia.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Agoratopia.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Agoratopia.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_CompactMenu = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design = global::Agoratopia.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_BottomSheetDialog = global::Agoratopia.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light = global::Agoratopia.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Agoratopia.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Bridge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Agoratopia.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionMode = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Colored = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Small = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_EditText = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ImageButton = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_SearchView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListMenuView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_Menu = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupWindow = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Agoratopia.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionContainer = global::Agoratopia.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionText = global::Agoratopia.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_AppBarLayout = global::Agoratopia.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomNavigationView = global::Agoratopia.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomSheet_Modal = global::Agoratopia.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_CollapsingToolbar = global::Agoratopia.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_FloatingActionButton = global::Agoratopia.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_NavigationView = global::Agoratopia.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Agoratopia.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_Snackbar = global::Agoratopia.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TabLayout = global::Agoratopia.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TextInputLayout = global::Agoratopia.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_CardView = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_NavigationView = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Toolbar = global::Agoratopia.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Support_CoordinatorLayout = global::Agoratopia.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar = global::Agoratopia.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout = global::Agoratopia.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Agoratopia.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_background = global::Agoratopia.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundSplit = global::Agoratopia.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundStacked = global::Agoratopia.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEnd = global::Agoratopia.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Agoratopia.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetLeft = global::Agoratopia.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetRight = global::Agoratopia.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStart = global::Agoratopia.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Agoratopia.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_customNavigationLayout = global::Agoratopia.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_displayOptions = global::Agoratopia.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_divider = global::Agoratopia.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_elevation = global::Agoratopia.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_height = global::Agoratopia.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_hideOnContentScroll = global::Agoratopia.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Agoratopia.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeLayout = global::Agoratopia.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_icon = global::Agoratopia.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Agoratopia.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_itemPadding = global::Agoratopia.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_logo = global::Agoratopia.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_navigationMode = global::Agoratopia.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_popupTheme = global::Agoratopia.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarPadding = global::Agoratopia.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarStyle = global::Agoratopia.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitle = global::Agoratopia.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitleTextStyle = global::Agoratopia.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_title = global::Agoratopia.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_titleTextStyle = global::Agoratopia.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView = global::Agoratopia.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Agoratopia.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuView = global::Agoratopia.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode = global::Agoratopia.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_background = global::Agoratopia.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_backgroundSplit = global::Agoratopia.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_closeItemLayout = global::Agoratopia.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_height = global::Agoratopia.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_subtitleTextStyle = global::Agoratopia.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_titleTextStyle = global::Agoratopia.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView = global::Agoratopia.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Agoratopia.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Agoratopia.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog = global::Agoratopia.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_android_layout = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonIconDimen = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listItemLayout = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listLayout = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_showTitle = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Agoratopia.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Agoratopia.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates = global::Agoratopia.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Agoratopia.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Agoratopia.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Agoratopia.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Agoratopia.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_background = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_elevation = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_expanded = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_liftOnScroll = global::Agoratopia.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView = global::Agoratopia.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_android_src = global::Agoratopia.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_srcCompat = global::Agoratopia.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tint = global::Agoratopia.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tintMode = global::Agoratopia.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar = global::Agoratopia.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Agoratopia.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMark = global::Agoratopia.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Agoratopia.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Agoratopia.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_fontFamily = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lineHeight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_textAllCaps = global::Agoratopia.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSize = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorAccent = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorError = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimary = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_controlBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerVertical = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextColor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_switchStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBar = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Agoratopia.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_backgroundTint = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_hideOnScroll = global::Agoratopia.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_elevation = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemBackground = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemIconSize = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemIconTint = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemTextColor = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_menu = global::Agoratopia.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout = global::Agoratopia.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Agoratopia.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Agoratopia.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Agoratopia.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Agoratopia.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout = global::Agoratopia.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout_allowStacking = global::Agoratopia.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView = global::Agoratopia.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minHeight = global::Agoratopia.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minWidth = global::Agoratopia.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardBackgroundColor = global::Agoratopia.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardCornerRadius = global::Agoratopia.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardElevation = global::Agoratopia.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardMaxElevation = global::Agoratopia.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Agoratopia.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardUseCompatPadding = global::Agoratopia.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPadding = global::Agoratopia.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingBottom = global::Agoratopia.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingLeft = global::Agoratopia.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingRight = global::Agoratopia.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingTop = global::Agoratopia.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip = global::Agoratopia.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup = global::Agoratopia.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_checkedChip = global::Agoratopia.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacing = global::Agoratopia.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Agoratopia.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Agoratopia.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleLine = global::Agoratopia.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleSelection = global::Agoratopia.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_checkable = global::Agoratopia.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_ellipsize = global::Agoratopia.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_maxWidth = global::Agoratopia.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_text = global::Agoratopia.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_textAppearance = global::Agoratopia.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIcon = global::Agoratopia.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconEnabled = global::Agoratopia.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconVisible = global::Agoratopia.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipBackgroundColor = global::Agoratopia.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipCornerRadius = global::Agoratopia.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipEndPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIcon = global::Agoratopia.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconEnabled = global::Agoratopia.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconSize = global::Agoratopia.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconTint = global::Agoratopia.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconVisible = global::Agoratopia.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipMinHeight = global::Agoratopia.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStartPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeColor = global::Agoratopia.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeWidth = global::Agoratopia.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIcon = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEnabled = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEndPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconSize = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconStartPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconTint = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconVisible = global::Agoratopia.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_hideMotionSpec = global::Agoratopia.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconEndPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconStartPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_rippleColor = global::Agoratopia.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_showMotionSpec = global::Agoratopia.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textEndPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textStartPadding = global::Agoratopia.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_title = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Agoratopia.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem = global::Agoratopia.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_alpha = global::Agoratopia.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_alpha = global::Agoratopia.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_color = global::Agoratopia.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton = global::Agoratopia.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_android_button = global::Agoratopia.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTint = global::Agoratopia.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTintMode = global::Agoratopia.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_keylines = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Agoratopia.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DesignTheme = global::Agoratopia.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Agoratopia.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Agoratopia.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_barLength = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_color = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_spinBars = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_thickness = global::Agoratopia.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTint = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_borderWidth = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_elevation = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabSize = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_maxImageSize = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_rippleColor = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Agoratopia.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout = global::Agoratopia.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_itemSpacing = global::Agoratopia.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_lineSpacing = global::Agoratopia.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily = global::Agoratopia.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_font = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_font = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontStyle = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontWeight = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_ttcIndex = global::Agoratopia.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderAuthority = global::Agoratopia.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderCerts = global::Agoratopia.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Agoratopia.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Agoratopia.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderPackage = global::Agoratopia.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderQuery = global::Agoratopia.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout = global::Agoratopia.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Agoratopia.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Agoratopia.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Agoratopia.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor = global::Agoratopia.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem = global::Agoratopia.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_color = global::Agoratopia.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_offset = global::Agoratopia.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerColor = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerX = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerY = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endColor = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endX = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endY = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_gradientRadius = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startColor = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startX = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startY = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_tileMode = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_type = global::Agoratopia.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme = global::Agoratopia.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Agoratopia.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_divider = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_showDividers = global::Agoratopia.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow = global::Agoratopia.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Agoratopia.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Agoratopia.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton = global::Agoratopia.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetBottom = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetLeft = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetRight = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetTop = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTint = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTintMode = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_cornerRadius = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_icon = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconGravity = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconPadding = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconSize = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTint = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTintMode = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_rippleColor = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeColor = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeWidth = global::Agoratopia.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView = global::Agoratopia.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeColor = global::Agoratopia.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeWidth = global::Agoratopia.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Agoratopia.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup = global::Agoratopia.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Agoratopia.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_enabled = global::Agoratopia.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_id = global::Agoratopia.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_menuCategory = global::Agoratopia.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_orderInCategory = global::Agoratopia.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_visible = global::Agoratopia.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem = global::Agoratopia.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionLayout = global::Agoratopia.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionProviderClass = global::Agoratopia.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionViewClass = global::Agoratopia.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_alphabeticModifiers = global::Agoratopia.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checkable = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checked = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_enabled = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_icon = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_id = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_menuCategory = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_numericShortcut = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_onClick = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_orderInCategory = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_title = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_titleCondensed = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_visible = global::Agoratopia.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_contentDescription = global::Agoratopia.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTint = global::Agoratopia.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTintMode = global::Agoratopia.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_numericModifiers = global::Agoratopia.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_showAsAction = global::Agoratopia.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_tooltipText = global::Agoratopia.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView = global::Agoratopia.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_headerBackground = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_horizontalDivider = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemBackground = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemTextAppearance = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_verticalDivider = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Agoratopia.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_preserveIconSpacing = global::Agoratopia.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_subMenuArrow = global::Agoratopia.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView = global::Agoratopia.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_background = global::Agoratopia.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Agoratopia.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_maxWidth = global::Agoratopia.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_elevation = global::Agoratopia.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_headerLayout = global::Agoratopia.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemBackground = global::Agoratopia.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Agoratopia.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconPadding = global::Agoratopia.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconTint = global::Agoratopia.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextAppearance = global::Agoratopia.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextColor = global::Agoratopia.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_menu = global::Agoratopia.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow = global::Agoratopia.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState = global::Agoratopia.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Agoratopia.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Agoratopia.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupBackground = global::Agoratopia.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_overlapAnchor = global::Agoratopia.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView = global::Agoratopia.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Agoratopia.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Agoratopia.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView = global::Agoratopia.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_orientation = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_layoutManager = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_reverseLayout = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_spanCount = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_stackFromEnd = global::Agoratopia.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout = global::Agoratopia.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Agoratopia.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout = global::Agoratopia.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Agoratopia.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme = global::Agoratopia.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::Agoratopia.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView = global::Agoratopia.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_focusable = global::Agoratopia.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_imeOptions = global::Agoratopia.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_inputType = global::Agoratopia.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_maxWidth = global::Agoratopia.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_closeIcon = global::Agoratopia.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_commitIcon = global::Agoratopia.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_defaultQueryHint = global::Agoratopia.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_goIcon = global::Agoratopia.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_iconifiedByDefault = global::Agoratopia.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_layout = global::Agoratopia.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryBackground = global::Agoratopia.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryHint = global::Agoratopia.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchHintIcon = global::Agoratopia.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchIcon = global::Agoratopia.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_submitBackground = global::Agoratopia.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_suggestionRowLayout = global::Agoratopia.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_voiceIcon = global::Agoratopia.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar = global::Agoratopia.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout = global::Agoratopia.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Agoratopia.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_elevation = global::Agoratopia.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Agoratopia.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Agoratopia.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarStyle = global::Agoratopia.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner = global::Agoratopia.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_dropDownWidth = global::Agoratopia.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_entries = global::Agoratopia.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_popupBackground = global::Agoratopia.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_prompt = global::Agoratopia.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_popupTheme = global::Agoratopia.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem = global::Agoratopia.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem_android_drawable = global::Agoratopia.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_constantSize = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_dither = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_variablePadding = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_visible = global::Agoratopia.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOff = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOn = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_thumb = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_showText = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_splitTrack = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchMinWidth = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchPadding = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTint = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTintMode = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_track = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTint = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTintMode = global::Agoratopia.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem = global::Agoratopia.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_icon = global::Agoratopia.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_layout = global::Agoratopia.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_text = global::Agoratopia.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout = global::Agoratopia.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabBackground = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabContentStart = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabGravity = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTint = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTintMode = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicator = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorColor = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabInlineLabel = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMaxWidth = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMinWidth = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMode = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPadding = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingBottom = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingEnd = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingStart = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingTop = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabRippleColor = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextAppearance = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextColor = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Agoratopia.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance = global::Agoratopia.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_fontFamily = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowColor = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDx = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDy = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowRadius = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColor = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorHint = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorLink = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textSize = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textStyle = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_typeface = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_fontFamily = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_textAllCaps = global::Agoratopia.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_hint = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_textColorHint = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterEnabled = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterMaxLength = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorEnabled = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperText = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintEnabled = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Agoratopia.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement = global::Agoratopia.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Agoratopia.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Agoratopia.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Agoratopia.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar = global::Agoratopia.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_gravity = global::Agoratopia.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_minHeight = global::Agoratopia.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_buttonGravity = global::Agoratopia.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseContentDescription = global::Agoratopia.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseIcon = global::Agoratopia.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEnd = global::Agoratopia.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Agoratopia.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetLeft = global::Agoratopia.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetRight = global::Agoratopia.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStart = global::Agoratopia.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Agoratopia.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logo = global::Agoratopia.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logoDescription = global::Agoratopia.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_maxButtonHeight = global::Agoratopia.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationContentDescription = global::Agoratopia.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationIcon = global::Agoratopia.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_popupTheme = global::Agoratopia.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitle = global::Agoratopia.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Agoratopia.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextColor = global::Agoratopia.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_title = global::Agoratopia.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargin = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginBottom = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginEnd = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargins = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginStart = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginTop = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextAppearance = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextColor = global::Agoratopia.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View = global::Agoratopia.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper = global::Agoratopia.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_android_background = global::Agoratopia.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Agoratopia.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Agoratopia.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat = global::Agoratopia.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_id = global::Agoratopia.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Agoratopia.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_layout = global::Agoratopia.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_focusable = global::Agoratopia.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_theme = global::Agoratopia.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingEnd = global::Agoratopia.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingStart = global::Agoratopia.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_theme = global::Agoratopia.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::Agoratopia.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::Agoratopia.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Agoratopia.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8581,754 +11168,748 @@ namespace Agoratopia.Droid
 			public const int avd_show_password = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int breathe = 2131165270;
+			public const int common_full_open_on_phone = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int common_full_open_on_phone = 2131165271;
+			public const int common_google_signin_btn_icon_dark = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int common_google_signin_btn_icon_dark = 2131165272;
+			public const int common_google_signin_btn_icon_dark_focused = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int common_google_signin_btn_icon_dark_focused = 2131165273;
+			public const int common_google_signin_btn_icon_dark_normal = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int common_google_signin_btn_icon_dark_normal = 2131165274;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131165275;
+			public const int common_google_signin_btn_icon_disabled = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int common_google_signin_btn_icon_disabled = 2131165276;
+			public const int common_google_signin_btn_icon_light = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int common_google_signin_btn_icon_light = 2131165277;
+			public const int common_google_signin_btn_icon_light_focused = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int common_google_signin_btn_icon_light_focused = 2131165278;
+			public const int common_google_signin_btn_icon_light_normal = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int common_google_signin_btn_icon_light_normal = 2131165279;
+			public const int common_google_signin_btn_icon_light_normal_background = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int common_google_signin_btn_icon_light_normal_background = 2131165280;
+			public const int common_google_signin_btn_text_dark = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int common_google_signin_btn_text_dark = 2131165281;
+			public const int common_google_signin_btn_text_dark_focused = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int common_google_signin_btn_text_dark_focused = 2131165282;
+			public const int common_google_signin_btn_text_dark_normal = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int common_google_signin_btn_text_dark_normal = 2131165283;
+			public const int common_google_signin_btn_text_dark_normal_background = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int common_google_signin_btn_text_dark_normal_background = 2131165284;
+			public const int common_google_signin_btn_text_disabled = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int common_google_signin_btn_text_disabled = 2131165285;
+			public const int common_google_signin_btn_text_light = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int common_google_signin_btn_text_light = 2131165286;
+			public const int common_google_signin_btn_text_light_focused = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int common_google_signin_btn_text_light_focused = 2131165287;
+			public const int common_google_signin_btn_text_light_normal = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int common_google_signin_btn_text_light_normal = 2131165288;
+			public const int common_google_signin_btn_text_light_normal_background = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int common_google_signin_btn_text_light_normal_background = 2131165289;
+			public const int design_bottom_navigation_item_background = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_bottom_navigation_item_background = 2131165290;
+			public const int design_fab_background = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int design_fab_background = 2131165291;
+			public const int design_ic_visibility = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int design_ic_visibility = 2131165292;
+			public const int design_ic_visibility_off = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int design_ic_visibility_off = 2131165293;
+			public const int design_password_eye = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int design_password_eye = 2131165294;
+			public const int design_snackbar_background = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int design_snackbar_background = 2131165295;
+			public const int googleg_disabled_color_18 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int gatcha = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int googleg_disabled_color_18 = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int googleg_standard_color_18 = 2131165298;
-			
-			// aapt resource value: 0x7F070128
-			public const int icon_about = 2131165480;
-			
-			// aapt resource value: 0x7F070129
-			public const int icon_feed = 2131165481;
-			
-			// aapt resource value: 0x7F070073
-			public const int ic_audiotrack_dark = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int ic_audiotrack_light = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int ic_dialog_close_dark = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int ic_dialog_close_light = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int ic_group_collapse_00 = 2131165303;
-			
-			// aapt resource value: 0x7F070078
-			public const int ic_group_collapse_01 = 2131165304;
-			
-			// aapt resource value: 0x7F070079
-			public const int ic_group_collapse_02 = 2131165305;
-			
-			// aapt resource value: 0x7F07007A
-			public const int ic_group_collapse_03 = 2131165306;
-			
-			// aapt resource value: 0x7F07007B
-			public const int ic_group_collapse_04 = 2131165307;
-			
-			// aapt resource value: 0x7F07007C
-			public const int ic_group_collapse_05 = 2131165308;
-			
-			// aapt resource value: 0x7F07007D
-			public const int ic_group_collapse_06 = 2131165309;
-			
-			// aapt resource value: 0x7F07007E
-			public const int ic_group_collapse_07 = 2131165310;
-			
-			// aapt resource value: 0x7F07007F
-			public const int ic_group_collapse_08 = 2131165311;
-			
-			// aapt resource value: 0x7F070080
-			public const int ic_group_collapse_09 = 2131165312;
-			
-			// aapt resource value: 0x7F070081
-			public const int ic_group_collapse_10 = 2131165313;
-			
-			// aapt resource value: 0x7F070082
-			public const int ic_group_collapse_11 = 2131165314;
-			
-			// aapt resource value: 0x7F070083
-			public const int ic_group_collapse_12 = 2131165315;
-			
-			// aapt resource value: 0x7F070084
-			public const int ic_group_collapse_13 = 2131165316;
-			
-			// aapt resource value: 0x7F070085
-			public const int ic_group_collapse_14 = 2131165317;
-			
-			// aapt resource value: 0x7F070086
-			public const int ic_group_collapse_15 = 2131165318;
-			
-			// aapt resource value: 0x7F070087
-			public const int ic_group_expand_00 = 2131165319;
-			
-			// aapt resource value: 0x7F070088
-			public const int ic_group_expand_01 = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int ic_group_expand_02 = 2131165321;
-			
-			// aapt resource value: 0x7F07008A
-			public const int ic_group_expand_03 = 2131165322;
-			
-			// aapt resource value: 0x7F07008B
-			public const int ic_group_expand_04 = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int ic_group_expand_05 = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int ic_group_expand_06 = 2131165325;
-			
-			// aapt resource value: 0x7F07008E
-			public const int ic_group_expand_07 = 2131165326;
-			
-			// aapt resource value: 0x7F07008F
-			public const int ic_group_expand_08 = 2131165327;
-			
-			// aapt resource value: 0x7F070090
-			public const int ic_group_expand_09 = 2131165328;
-			
-			// aapt resource value: 0x7F070091
-			public const int ic_group_expand_10 = 2131165329;
-			
-			// aapt resource value: 0x7F070092
-			public const int ic_group_expand_11 = 2131165330;
-			
-			// aapt resource value: 0x7F070093
-			public const int ic_group_expand_12 = 2131165331;
-			
-			// aapt resource value: 0x7F070094
-			public const int ic_group_expand_13 = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int ic_group_expand_14 = 2131165333;
-			
-			// aapt resource value: 0x7F070096
-			public const int ic_group_expand_15 = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int ic_media_pause_dark = 2131165335;
-			
-			// aapt resource value: 0x7F070098
-			public const int ic_media_pause_light = 2131165336;
-			
-			// aapt resource value: 0x7F070099
-			public const int ic_media_play_dark = 2131165337;
-			
-			// aapt resource value: 0x7F07009A
-			public const int ic_media_play_light = 2131165338;
-			
-			// aapt resource value: 0x7F07009B
-			public const int ic_media_stop_dark = 2131165339;
-			
-			// aapt resource value: 0x7F07009C
-			public const int ic_media_stop_light = 2131165340;
-			
-			// aapt resource value: 0x7F07009D
-			public const int ic_mr_button_connected_00_dark = 2131165341;
-			
-			// aapt resource value: 0x7F07009E
-			public const int ic_mr_button_connected_00_light = 2131165342;
-			
-			// aapt resource value: 0x7F07009F
-			public const int ic_mr_button_connected_01_dark = 2131165343;
-			
-			// aapt resource value: 0x7F0700A0
-			public const int ic_mr_button_connected_01_light = 2131165344;
-			
-			// aapt resource value: 0x7F0700A1
-			public const int ic_mr_button_connected_02_dark = 2131165345;
-			
-			// aapt resource value: 0x7F0700A2
-			public const int ic_mr_button_connected_02_light = 2131165346;
-			
-			// aapt resource value: 0x7F0700A3
-			public const int ic_mr_button_connected_03_dark = 2131165347;
-			
-			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_03_light = 2131165348;
-			
-			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_04_dark = 2131165349;
-			
-			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_04_light = 2131165350;
-			
-			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_05_dark = 2131165351;
-			
-			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_05_light = 2131165352;
-			
-			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_06_dark = 2131165353;
-			
-			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_06_light = 2131165354;
-			
-			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_07_dark = 2131165355;
-			
-			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_07_light = 2131165356;
-			
-			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_08_dark = 2131165357;
-			
-			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_08_light = 2131165358;
-			
-			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_09_dark = 2131165359;
-			
-			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_09_light = 2131165360;
-			
-			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_10_dark = 2131165361;
-			
-			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_10_light = 2131165362;
-			
-			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_11_dark = 2131165363;
-			
-			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_11_light = 2131165364;
-			
-			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_12_dark = 2131165365;
-			
-			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_12_light = 2131165366;
-			
-			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_13_dark = 2131165367;
-			
-			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_13_light = 2131165368;
-			
-			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_14_dark = 2131165369;
-			
-			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_14_light = 2131165370;
-			
-			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_15_dark = 2131165371;
-			
-			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_15_light = 2131165372;
-			
-			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_16_dark = 2131165373;
-			
-			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_16_light = 2131165374;
-			
-			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_17_dark = 2131165375;
-			
-			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_17_light = 2131165376;
-			
-			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_18_dark = 2131165377;
-			
-			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_18_light = 2131165378;
-			
-			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_19_dark = 2131165379;
-			
-			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_19_light = 2131165380;
-			
-			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_20_dark = 2131165381;
-			
-			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_20_light = 2131165382;
-			
-			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_21_dark = 2131165383;
-			
-			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_21_light = 2131165384;
-			
-			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_22_dark = 2131165385;
-			
-			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_22_light = 2131165386;
-			
-			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_23_dark = 2131165387;
-			
-			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_23_light = 2131165388;
-			
-			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_24_dark = 2131165389;
-			
-			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_24_light = 2131165390;
-			
-			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_25_dark = 2131165391;
-			
-			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_25_light = 2131165392;
-			
-			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_26_dark = 2131165393;
-			
-			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_26_light = 2131165394;
-			
-			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_27_dark = 2131165395;
-			
-			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_27_light = 2131165396;
-			
-			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_28_dark = 2131165397;
-			
-			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_28_light = 2131165398;
-			
-			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_29_dark = 2131165399;
-			
-			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_29_light = 2131165400;
-			
-			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_30_dark = 2131165401;
-			
-			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_30_light = 2131165402;
-			
-			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connecting_00_dark = 2131165403;
-			
-			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connecting_00_light = 2131165404;
-			
-			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connecting_01_dark = 2131165405;
-			
-			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connecting_01_light = 2131165406;
-			
-			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connecting_02_dark = 2131165407;
-			
-			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connecting_02_light = 2131165408;
-			
-			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connecting_03_dark = 2131165409;
-			
-			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_03_light = 2131165410;
-			
-			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_04_dark = 2131165411;
-			
-			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_04_light = 2131165412;
-			
-			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_05_dark = 2131165413;
-			
-			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_05_light = 2131165414;
-			
-			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_06_dark = 2131165415;
-			
-			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_06_light = 2131165416;
-			
-			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_07_dark = 2131165417;
-			
-			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_07_light = 2131165418;
-			
-			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_08_dark = 2131165419;
-			
-			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_08_light = 2131165420;
-			
-			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_09_dark = 2131165421;
-			
-			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_09_light = 2131165422;
-			
-			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_10_dark = 2131165423;
-			
-			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_10_light = 2131165424;
-			
-			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_11_dark = 2131165425;
-			
-			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_11_light = 2131165426;
-			
-			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_12_dark = 2131165427;
-			
-			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_12_light = 2131165428;
-			
-			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_13_dark = 2131165429;
-			
-			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_13_light = 2131165430;
-			
-			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_14_dark = 2131165431;
-			
-			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_14_light = 2131165432;
-			
-			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_15_dark = 2131165433;
-			
-			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_15_light = 2131165434;
-			
-			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_16_dark = 2131165435;
-			
-			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_16_light = 2131165436;
-			
-			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_17_dark = 2131165437;
-			
-			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_17_light = 2131165438;
-			
-			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_18_dark = 2131165439;
-			
-			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_18_light = 2131165440;
-			
-			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_19_dark = 2131165441;
-			
-			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_19_light = 2131165442;
-			
-			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_20_dark = 2131165443;
-			
-			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_20_light = 2131165444;
-			
-			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_21_dark = 2131165445;
-			
-			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_21_light = 2131165446;
-			
-			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_22_dark = 2131165447;
-			
-			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_22_light = 2131165448;
-			
-			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_23_dark = 2131165449;
-			
-			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_23_light = 2131165450;
-			
-			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_24_dark = 2131165451;
-			
-			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_24_light = 2131165452;
-			
-			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_25_dark = 2131165453;
-			
-			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_25_light = 2131165454;
-			
-			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_26_dark = 2131165455;
-			
-			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_26_light = 2131165456;
-			
-			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_27_dark = 2131165457;
-			
-			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_27_light = 2131165458;
-			
-			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_28_dark = 2131165459;
-			
-			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_28_light = 2131165460;
-			
-			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_29_dark = 2131165461;
-			
-			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_29_light = 2131165462;
-			
-			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_30_dark = 2131165463;
-			
-			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_30_light = 2131165464;
-			
-			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_disabled_dark = 2131165465;
-			
-			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_disabled_light = 2131165466;
-			
-			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_disconnected_dark = 2131165467;
-			
-			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_disconnected_light = 2131165468;
-			
-			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_grey = 2131165469;
-			
-			// aapt resource value: 0x7F07011E
-			public const int ic_mtrl_chip_checked_black = 2131165470;
-			
-			// aapt resource value: 0x7F07011F
-			public const int ic_mtrl_chip_checked_circle = 2131165471;
-			
-			// aapt resource value: 0x7F070120
-			public const int ic_mtrl_chip_close_circle = 2131165472;
-			
-			// aapt resource value: 0x7F070121
-			public const int ic_stat_notify_dot = 2131165473;
-			
-			// aapt resource value: 0x7F070122
-			public const int ic_vol_type_speaker_dark = 2131165474;
-			
-			// aapt resource value: 0x7F070123
-			public const int ic_vol_type_speaker_group_dark = 2131165475;
-			
-			// aapt resource value: 0x7F070124
-			public const int ic_vol_type_speaker_group_light = 2131165476;
-			
-			// aapt resource value: 0x7F070125
-			public const int ic_vol_type_speaker_light = 2131165477;
+			public const int googleg_standard_color_18 = 2131165296;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_vol_type_tv_dark = 2131165478;
+			public const int icon_about = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_vol_type_tv_light = 2131165479;
+			public const int icon_feed = 2131165479;
+			
+			// aapt resource value: 0x7F070071
+			public const int ic_audiotrack_dark = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int ic_audiotrack_light = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int ic_dialog_close_dark = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int ic_dialog_close_light = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int ic_group_collapse_00 = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int ic_group_collapse_01 = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int ic_group_collapse_02 = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int ic_group_collapse_03 = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int ic_group_collapse_04 = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int ic_group_collapse_05 = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int ic_group_collapse_06 = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int ic_group_collapse_07 = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int ic_group_collapse_08 = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int ic_group_collapse_09 = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int ic_group_collapse_10 = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int ic_group_collapse_11 = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int ic_group_collapse_12 = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int ic_group_collapse_13 = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int ic_group_collapse_14 = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int ic_group_collapse_15 = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int ic_group_expand_00 = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int ic_group_expand_01 = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int ic_group_expand_02 = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int ic_group_expand_03 = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int ic_group_expand_04 = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int ic_group_expand_05 = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int ic_group_expand_06 = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_group_expand_07 = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_group_expand_08 = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int ic_group_expand_09 = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int ic_group_expand_10 = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int ic_group_expand_11 = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int ic_group_expand_12 = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int ic_group_expand_13 = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int ic_group_expand_14 = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int ic_group_expand_15 = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int ic_media_pause_dark = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int ic_media_pause_light = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int ic_media_play_dark = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int ic_media_play_light = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int ic_media_stop_dark = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int ic_media_stop_light = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int ic_mr_button_connected_00_dark = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int ic_mr_button_connected_00_light = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int ic_mr_button_connected_01_dark = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int ic_mr_button_connected_01_light = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int ic_mr_button_connected_02_dark = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int ic_mr_button_connected_02_light = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int ic_mr_button_connected_03_dark = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int ic_mr_button_connected_03_light = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int ic_mr_button_connected_04_dark = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int ic_mr_button_connected_04_light = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int ic_mr_button_connected_05_dark = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ic_mr_button_connected_05_light = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ic_mr_button_connected_06_dark = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int ic_mr_button_connected_06_light = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int ic_mr_button_connected_07_dark = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int ic_mr_button_connected_07_light = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ic_mr_button_connected_08_dark = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ic_mr_button_connected_08_light = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int ic_mr_button_connected_09_dark = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int ic_mr_button_connected_09_light = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int ic_mr_button_connected_10_dark = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int ic_mr_button_connected_10_light = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int ic_mr_button_connected_11_dark = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int ic_mr_button_connected_11_light = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int ic_mr_button_connected_12_dark = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int ic_mr_button_connected_12_light = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int ic_mr_button_connected_13_dark = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int ic_mr_button_connected_13_light = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int ic_mr_button_connected_14_dark = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int ic_mr_button_connected_14_light = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int ic_mr_button_connected_15_dark = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int ic_mr_button_connected_15_light = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int ic_mr_button_connected_16_dark = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int ic_mr_button_connected_16_light = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int ic_mr_button_connected_17_dark = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int ic_mr_button_connected_17_light = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int ic_mr_button_connected_18_dark = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int ic_mr_button_connected_18_light = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int ic_mr_button_connected_19_dark = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int ic_mr_button_connected_19_light = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int ic_mr_button_connected_20_dark = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int ic_mr_button_connected_20_light = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int ic_mr_button_connected_21_dark = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int ic_mr_button_connected_21_light = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int ic_mr_button_connected_22_dark = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int ic_mr_button_connected_22_light = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int ic_mr_button_connected_23_dark = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int ic_mr_button_connected_23_light = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int ic_mr_button_connected_24_dark = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int ic_mr_button_connected_24_light = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int ic_mr_button_connected_25_dark = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int ic_mr_button_connected_25_light = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int ic_mr_button_connected_26_dark = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int ic_mr_button_connected_26_light = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+			public const int ic_mr_button_connected_27_dark = 2131165393;
+			
+			// aapt resource value: 0x7F0700D2
+			public const int ic_mr_button_connected_27_light = 2131165394;
+			
+			// aapt resource value: 0x7F0700D3
+			public const int ic_mr_button_connected_28_dark = 2131165395;
+			
+			// aapt resource value: 0x7F0700D4
+			public const int ic_mr_button_connected_28_light = 2131165396;
+			
+			// aapt resource value: 0x7F0700D5
+			public const int ic_mr_button_connected_29_dark = 2131165397;
+			
+			// aapt resource value: 0x7F0700D6
+			public const int ic_mr_button_connected_29_light = 2131165398;
+			
+			// aapt resource value: 0x7F0700D7
+			public const int ic_mr_button_connected_30_dark = 2131165399;
+			
+			// aapt resource value: 0x7F0700D8
+			public const int ic_mr_button_connected_30_light = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int ic_mr_button_connecting_00_dark = 2131165401;
+			
+			// aapt resource value: 0x7F0700DA
+			public const int ic_mr_button_connecting_00_light = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int ic_mr_button_connecting_01_dark = 2131165403;
+			
+			// aapt resource value: 0x7F0700DC
+			public const int ic_mr_button_connecting_01_light = 2131165404;
+			
+			// aapt resource value: 0x7F0700DD
+			public const int ic_mr_button_connecting_02_dark = 2131165405;
+			
+			// aapt resource value: 0x7F0700DE
+			public const int ic_mr_button_connecting_02_light = 2131165406;
+			
+			// aapt resource value: 0x7F0700DF
+			public const int ic_mr_button_connecting_03_dark = 2131165407;
+			
+			// aapt resource value: 0x7F0700E0
+			public const int ic_mr_button_connecting_03_light = 2131165408;
+			
+			// aapt resource value: 0x7F0700E1
+			public const int ic_mr_button_connecting_04_dark = 2131165409;
+			
+			// aapt resource value: 0x7F0700E2
+			public const int ic_mr_button_connecting_04_light = 2131165410;
+			
+			// aapt resource value: 0x7F0700E3
+			public const int ic_mr_button_connecting_05_dark = 2131165411;
+			
+			// aapt resource value: 0x7F0700E4
+			public const int ic_mr_button_connecting_05_light = 2131165412;
+			
+			// aapt resource value: 0x7F0700E5
+			public const int ic_mr_button_connecting_06_dark = 2131165413;
+			
+			// aapt resource value: 0x7F0700E6
+			public const int ic_mr_button_connecting_06_light = 2131165414;
+			
+			// aapt resource value: 0x7F0700E7
+			public const int ic_mr_button_connecting_07_dark = 2131165415;
+			
+			// aapt resource value: 0x7F0700E8
+			public const int ic_mr_button_connecting_07_light = 2131165416;
+			
+			// aapt resource value: 0x7F0700E9
+			public const int ic_mr_button_connecting_08_dark = 2131165417;
+			
+			// aapt resource value: 0x7F0700EA
+			public const int ic_mr_button_connecting_08_light = 2131165418;
+			
+			// aapt resource value: 0x7F0700EB
+			public const int ic_mr_button_connecting_09_dark = 2131165419;
+			
+			// aapt resource value: 0x7F0700EC
+			public const int ic_mr_button_connecting_09_light = 2131165420;
+			
+			// aapt resource value: 0x7F0700ED
+			public const int ic_mr_button_connecting_10_dark = 2131165421;
+			
+			// aapt resource value: 0x7F0700EE
+			public const int ic_mr_button_connecting_10_light = 2131165422;
+			
+			// aapt resource value: 0x7F0700EF
+			public const int ic_mr_button_connecting_11_dark = 2131165423;
+			
+			// aapt resource value: 0x7F0700F0
+			public const int ic_mr_button_connecting_11_light = 2131165424;
+			
+			// aapt resource value: 0x7F0700F1
+			public const int ic_mr_button_connecting_12_dark = 2131165425;
+			
+			// aapt resource value: 0x7F0700F2
+			public const int ic_mr_button_connecting_12_light = 2131165426;
+			
+			// aapt resource value: 0x7F0700F3
+			public const int ic_mr_button_connecting_13_dark = 2131165427;
+			
+			// aapt resource value: 0x7F0700F4
+			public const int ic_mr_button_connecting_13_light = 2131165428;
+			
+			// aapt resource value: 0x7F0700F5
+			public const int ic_mr_button_connecting_14_dark = 2131165429;
+			
+			// aapt resource value: 0x7F0700F6
+			public const int ic_mr_button_connecting_14_light = 2131165430;
+			
+			// aapt resource value: 0x7F0700F7
+			public const int ic_mr_button_connecting_15_dark = 2131165431;
+			
+			// aapt resource value: 0x7F0700F8
+			public const int ic_mr_button_connecting_15_light = 2131165432;
+			
+			// aapt resource value: 0x7F0700F9
+			public const int ic_mr_button_connecting_16_dark = 2131165433;
+			
+			// aapt resource value: 0x7F0700FA
+			public const int ic_mr_button_connecting_16_light = 2131165434;
+			
+			// aapt resource value: 0x7F0700FB
+			public const int ic_mr_button_connecting_17_dark = 2131165435;
+			
+			// aapt resource value: 0x7F0700FC
+			public const int ic_mr_button_connecting_17_light = 2131165436;
+			
+			// aapt resource value: 0x7F0700FD
+			public const int ic_mr_button_connecting_18_dark = 2131165437;
+			
+			// aapt resource value: 0x7F0700FE
+			public const int ic_mr_button_connecting_18_light = 2131165438;
+			
+			// aapt resource value: 0x7F0700FF
+			public const int ic_mr_button_connecting_19_dark = 2131165439;
+			
+			// aapt resource value: 0x7F070100
+			public const int ic_mr_button_connecting_19_light = 2131165440;
+			
+			// aapt resource value: 0x7F070101
+			public const int ic_mr_button_connecting_20_dark = 2131165441;
+			
+			// aapt resource value: 0x7F070102
+			public const int ic_mr_button_connecting_20_light = 2131165442;
+			
+			// aapt resource value: 0x7F070103
+			public const int ic_mr_button_connecting_21_dark = 2131165443;
+			
+			// aapt resource value: 0x7F070104
+			public const int ic_mr_button_connecting_21_light = 2131165444;
+			
+			// aapt resource value: 0x7F070105
+			public const int ic_mr_button_connecting_22_dark = 2131165445;
+			
+			// aapt resource value: 0x7F070106
+			public const int ic_mr_button_connecting_22_light = 2131165446;
+			
+			// aapt resource value: 0x7F070107
+			public const int ic_mr_button_connecting_23_dark = 2131165447;
+			
+			// aapt resource value: 0x7F070108
+			public const int ic_mr_button_connecting_23_light = 2131165448;
+			
+			// aapt resource value: 0x7F070109
+			public const int ic_mr_button_connecting_24_dark = 2131165449;
+			
+			// aapt resource value: 0x7F07010A
+			public const int ic_mr_button_connecting_24_light = 2131165450;
+			
+			// aapt resource value: 0x7F07010B
+			public const int ic_mr_button_connecting_25_dark = 2131165451;
+			
+			// aapt resource value: 0x7F07010C
+			public const int ic_mr_button_connecting_25_light = 2131165452;
+			
+			// aapt resource value: 0x7F07010D
+			public const int ic_mr_button_connecting_26_dark = 2131165453;
+			
+			// aapt resource value: 0x7F07010E
+			public const int ic_mr_button_connecting_26_light = 2131165454;
+			
+			// aapt resource value: 0x7F07010F
+			public const int ic_mr_button_connecting_27_dark = 2131165455;
+			
+			// aapt resource value: 0x7F070110
+			public const int ic_mr_button_connecting_27_light = 2131165456;
+			
+			// aapt resource value: 0x7F070111
+			public const int ic_mr_button_connecting_28_dark = 2131165457;
+			
+			// aapt resource value: 0x7F070112
+			public const int ic_mr_button_connecting_28_light = 2131165458;
+			
+			// aapt resource value: 0x7F070113
+			public const int ic_mr_button_connecting_29_dark = 2131165459;
+			
+			// aapt resource value: 0x7F070114
+			public const int ic_mr_button_connecting_29_light = 2131165460;
+			
+			// aapt resource value: 0x7F070115
+			public const int ic_mr_button_connecting_30_dark = 2131165461;
+			
+			// aapt resource value: 0x7F070116
+			public const int ic_mr_button_connecting_30_light = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public const int ic_mr_button_disabled_dark = 2131165463;
+			
+			// aapt resource value: 0x7F070118
+			public const int ic_mr_button_disabled_light = 2131165464;
+			
+			// aapt resource value: 0x7F070119
+			public const int ic_mr_button_disconnected_dark = 2131165465;
+			
+			// aapt resource value: 0x7F07011A
+			public const int ic_mr_button_disconnected_light = 2131165466;
+			
+			// aapt resource value: 0x7F07011B
+			public const int ic_mr_button_grey = 2131165467;
+			
+			// aapt resource value: 0x7F07011C
+			public const int ic_mtrl_chip_checked_black = 2131165468;
+			
+			// aapt resource value: 0x7F07011D
+			public const int ic_mtrl_chip_checked_circle = 2131165469;
+			
+			// aapt resource value: 0x7F07011E
+			public const int ic_mtrl_chip_close_circle = 2131165470;
+			
+			// aapt resource value: 0x7F07011F
+			public const int ic_stat_notify_dot = 2131165471;
+			
+			// aapt resource value: 0x7F070120
+			public const int ic_vol_type_speaker_dark = 2131165472;
+			
+			// aapt resource value: 0x7F070121
+			public const int ic_vol_type_speaker_group_dark = 2131165473;
+			
+			// aapt resource value: 0x7F070122
+			public const int ic_vol_type_speaker_group_light = 2131165474;
+			
+			// aapt resource value: 0x7F070123
+			public const int ic_vol_type_speaker_light = 2131165475;
+			
+			// aapt resource value: 0x7F070124
+			public const int ic_vol_type_tv_dark = 2131165476;
+			
+			// aapt resource value: 0x7F070125
+			public const int ic_vol_type_tv_light = 2131165477;
+			
+			// aapt resource value: 0x7F070128
+			public const int mr_button_connected_dark = 2131165480;
+			
+			// aapt resource value: 0x7F070129
+			public const int mr_button_connected_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int mr_button_connected_dark = 2131165482;
+			public const int mr_button_connecting_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int mr_button_connected_light = 2131165483;
+			public const int mr_button_connecting_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int mr_button_connecting_dark = 2131165484;
+			public const int mr_button_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int mr_button_connecting_light = 2131165485;
+			public const int mr_button_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int mr_button_dark = 2131165486;
+			public const int mr_dialog_close_dark = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int mr_button_light = 2131165487;
+			public const int mr_dialog_close_light = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mr_dialog_close_dark = 2131165488;
+			public const int mr_dialog_material_background_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mr_dialog_close_light = 2131165489;
+			public const int mr_dialog_material_background_light = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mr_dialog_material_background_dark = 2131165490;
+			public const int mr_group_collapse = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mr_dialog_material_background_light = 2131165491;
+			public const int mr_group_expand = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mr_group_collapse = 2131165492;
+			public const int mr_media_pause_dark = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mr_group_expand = 2131165493;
+			public const int mr_media_pause_light = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mr_media_pause_dark = 2131165494;
+			public const int mr_media_play_dark = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mr_media_pause_light = 2131165495;
+			public const int mr_media_play_light = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_media_play_dark = 2131165496;
+			public const int mr_media_stop_dark = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_media_play_light = 2131165497;
+			public const int mr_media_stop_light = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_media_stop_dark = 2131165498;
+			public const int mr_vol_type_audiotrack_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_media_stop_light = 2131165499;
+			public const int mr_vol_type_audiotrack_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_vol_type_audiotrack_dark = 2131165500;
+			public const int mtrl_snackbar_background = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_vol_type_audiotrack_light = 2131165501;
+			public const int mtrl_tabs_default_indicator = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mtrl_snackbar_background = 2131165502;
+			public const int navigation_empty_icon = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mtrl_tabs_default_indicator = 2131165503;
+			public const int notification_action_background = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int navigation_empty_icon = 2131165504;
+			public const int notification_bg = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int notification_action_background = 2131165505;
+			public const int notification_bg_low = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int notification_bg = 2131165506;
+			public const int notification_bg_low_normal = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int notification_bg_low = 2131165507;
+			public const int notification_bg_low_pressed = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int notification_bg_low_normal = 2131165508;
+			public const int notification_bg_normal = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int notification_bg_low_pressed = 2131165509;
+			public const int notification_bg_normal_pressed = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int notification_bg_normal = 2131165510;
+			public const int notification_icon_background = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int notification_bg_normal_pressed = 2131165511;
+			public const int notification_template_icon_bg = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int notification_icon_background = 2131165512;
+			public const int notification_template_icon_low_bg = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int notification_template_icon_bg = 2131165513;
+			public const int notification_tile_bg = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int notification_template_icon_low_bg = 2131165514;
+			public const int notify_panel_notification_icon_bg = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int notification_tile_bg = 2131165515;
+			public const int tooltip_frame_dark = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int notify_panel_notification_icon_bg = 2131165516;
+			public const int tooltip_frame_light = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int tooltip_frame_dark = 2131165517;
-			
-			// aapt resource value: 0x7F07014E
-			public const int tooltip_frame_light = 2131165518;
-			
-			// aapt resource value: 0x7F07014F
-			public const int xamarin_logo = 2131165519;
+			public const int xamarin_logo = 2131165517;
 			
 			static Drawable()
 			{

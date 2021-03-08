@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sharp="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             x:Class="Agoratopia.Views.TierSetting">
+
+    <ContentPage.Resources>
+        <Style x:Key="QuestionText" TargetType="{x:Type Label}">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="Medium"/>
+        </Style>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="#FFDDD2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".85*"/>
+                <RowDefinition Height=".15*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".05*"/>
+                <ColumnDefinition Width=".90*"/>
+                <ColumnDefinition Width=".05*"/>
+            </Grid.ColumnDefinitions>
+
+            <FlexLayout Direction="Column"
+                    JustifyContent="SpaceEvenly"
+                    HorizontalOptions="Center"
+                    Grid.Column="1"
+                    Grid.Row="0"
+                    AlignItems="Center">
+
+                <sharp:Shadows Shades="{sharp:SingleShade BlurRadius=10,
+                                                          Color=Black,
+                                                          Offset='0,10'}"
+                               x:Name="QFrame">
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="20">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Text="Welcome to Agoratopia! Since this is your first time on the app, we're going to ask a few questions to customize the app to your experience."
+                                   Style="{StaticResource QuestionText}"
+                                   x:Name="MainText"
+                                   Grid.Column="0"
+                                   Grid.Row="0"/>
+                            
+                            <!-- Q1 answer -->
+
+                            <Entry Placeholder="First Name"
+                                   x:Name="Q1field"
+                                   HorizontalOptions="Center"
+                                   MaxLength="20"
+                                   WidthRequest="250"
+                                   IsVisible="False"
+                                   IsEnabled="False"
+                                   BackgroundColor="white"
+                                   Grid.Column="0"
+                                   Grid.Row="1"/>
+
+
+                            <!-- Q2 answer -->
+
+                            <FlexLayout x:Name="Q2field"
+                                        IsVisible="False"
+                                        IsEnabled="False"
+                                        Grid.Column="0"
+                                        Grid.Row="1"
+                                        HeightRequest="50"
+                                        JustifyContent="SpaceEvenly">
+                                
+                                <Picker x:Name="AgoraNum"
+                                        WidthRequest="150"
+                                        HorizontalOptions="Center"
+                                        BackgroundColor="White">
+                                        <Picker.Items>
+                                            <x:String>Less than 1</x:String>
+                                            <x:String>1</x:String>
+                                            <x:String>2</x:String>
+                                            <x:String>3</x:String>
+                                            <x:String>4</x:String>
+                                            <x:String>5</x:String>
+                                            <x:String>6-10</x:String>
+                                            <x:String>10+</x:String>
+                                        </Picker.Items>
+
+                                        <Picker.SelectedIndex>
+                                            0
+                                        </Picker.SelectedIndex>
+                                    </Picker>
+
+                                <Picker x:Name="MonthOrYear"
+                                            WidthRequest="150"
+                                            HorizontalOptions="Center"
+                                            BackgroundColor="White">
+                                    <Picker.Items>
+                                        <x:String>weeks</x:String>
+                                        <x:String>months</x:String>
+                                        <x:String>years</x:String>
+                                    </Picker.Items>
+
+                                    <Picker.SelectedIndex>
+                                        0
+                                    </Picker.SelectedIndex>
+                                </Picker>
+                            </FlexLayout>
+
+
+                            <!-- Q3 answer -->
+                            <Picker x:Name="Q3field"
+                                    WidthRequest="250"
+                                    HorizontalOptions="Center"
+                                    IsVisible="False"
+                                    IsEnabled="False"
+                                    BackgroundColor="White"
+                                    Grid.Column="0"
+                                    Grid.Row="1">
+                                <Picker.Items>
+                                    <x:String>3</x:String>
+                                    <x:String>4</x:String>
+                                    <x:String>5</x:String>
+                                    <x:String>6</x:String>
+                                    <x:String>7</x:String>
+                                </Picker.Items>
+
+                                <Picker.SelectedIndex>
+                                    0
+                                </Picker.SelectedIndex>
+                            </Picker>
+
+
+                            <!-- Q4 answer -->
+                            
+                            
+                            <FlexLayout Direction="Column"
+                                        x:Name="Q4flex"
+                                        HeightRequest="300"
+                                        JustifyContent="SpaceEvenly"
+                                        Grid.Column="0"
+                                        Grid.Row="1"
+                                        IsEnabled="False"
+                                        IsVisible="False">
+
+                            </FlexLayout>
+
+                        </Grid>
+
+                    </Frame>
+
+                </sharp:Shadows>
+
+
+            </FlexLayout>
+
+            <!-- Forward and backward buttons here -->
+            <FlexLayout Direction="Row"
+                        AlignItems="Center"
+                        HeightRequest="50"
+                        JustifyContent="SpaceEvenly"
+                        Grid.Row="1"
+                        Grid.Column="1">
+
+                <Button Text="&lt;&lt;&lt;"
+                        Style="{StaticResource ButtonStyle}"
+                        BindingContext="Back"
+                        IsVisible="False"
+                        IsEnabled="False"
+                        x:Name="BackButton"
+                        Clicked="Transition"/>
+
+                <Button Text="Submit"
+                        Style="{StaticResource ButtonStyle}"
+                        IsVisible="False"
+                        IsEnabled="False"
+                        x:Name="SubmitButton"
+                        Clicked="Submit"/>
+
+                <Button Text=">>>"
+                        Style="{StaticResource ButtonStyle}"
+                        BackgroundColor="#88FF86"
+                        BindingContext="Forward"
+                        Clicked="Transition"/>
+
+            </FlexLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

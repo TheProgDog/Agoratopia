@@ -463,5 +463,3 @@ C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Andr
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Release\90\android\src\mono\com\microsoft\appcenter\push\PushListenerImplementor.java
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Release\90\android\src\mono\com\microsoft\appcenter\utils\context\UserIdContext_ListenerImplementor.java
 C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Release\90\android\src\mono\com\microsoft\appcenter\utils\NetworkStateHelper_ListenerImplementor.java
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Release\90\res\drawable\gatcha.png
-C:\Users\Daniel Hernandez-Ote\source\repos\Agoratopia\Agoratopia\Agoratopia.Android\obj\Release\90\res\drawable\breathe.gif
